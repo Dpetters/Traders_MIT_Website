@@ -9,6 +9,10 @@ ADMINS = (
 )
 MANAGERS = ADMINS
 
+STATICFILES_DIRS = (
+    ROOT + "/static/",
+)
+
 DATABASES = {
 	'default':{
 		'ENGINE':'django.db.backends.mysql',

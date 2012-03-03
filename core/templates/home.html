@@ -1,5 +1,38 @@
 {% extends 'base.html' %}
 
+{% block meta %}
+    {% load compress %}
+
+    {% compress css %}
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/home.css">
+    {% endcompress %}
+
+    {% compress js %}
+        <script src="{{ STATIC_URL}}js/home.js"></script>
+    {% endcompress %}
+{% endblock %}
+
 {% block content %}
-	HOME!
+<div class="span12">
+    <div class="hero-unit">
+        <div class="info">
+            <h2>Mission Statement</h2>
+            <p>
+                The purpose of Traders@MIT is to prepare students for successful careers in trading by -
+                <ul>
+                    <li>teaching the fundamentals of financial products</li>
+                    <li>organizing educational events</li>
+                    <li>hosting an annual intercollegiate trading competition</li>
+                </ul>
+            </p>
+            <p class="action">
+                <a class="btn btn-success btn-primary btn-large">
+                    Learn more
+                </a>
+          </p>
+      </div>
+      <div class="media">
+          <img src="{{STATIC_URL}}images/sample.jpg" />
+      </div>
+</div>
 {% endblock %}

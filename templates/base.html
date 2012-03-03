@@ -2,17 +2,100 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="https://www.facebook.com/2008/fbml">
     <head{% block headattr %}{% endblock %}>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="description" content="{% include 'mission_statement.html' %}." />
-        {% block meta %}{% endblock %}
+        <meta name="description" content="{% include 'mission_statement.html' %}" />
         
         <link rel="icon" href="/favicon.ico" />
         
         <title>{% block title %}{% endblock %}Traders@MIT</title>
+        {% load compress %}
+        
+        <link rel="stylesheet" href="{{ STATIC_URL }}lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ STATIC_URL }}lib/bootstrap/css/bootstrap-responsive.min.css">
+        
+        {% compress css %}
+            <link rel="stylesheet" href="{{ STATIC_URL }}css/base.css">
+        {% endcompress %}
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        {% compress js %}
+            <script src="{{ STATIC_URL }}lib/jquery/jquery.js" charset="utf-8"></script>
+            <script src="{{ STATIC_URL }}js/base.js" charset="utf-8"></script>
+            <script src="{{ STATIC_URL }}lib/bootstrap/js/bootstrap-tooltip.js" charset="utf-8"></script>
+        {% endcompress %}
+
+        {% block meta %}{% endblock %}
+                
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-29669777-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
     </head>
     <body>
-	<div>
-		{% block content %}
-		{% endblock %}
-	</div>
+        <div class="container-fluid">
+            <div id="header" class="row-fluid">
+                <div class="span6">
+                    <div id="logo">
+                        <a href="{% url home %}"><img src="{{ STATIC_URL }}images/logo.png" /></a>
+                    </div>
+                </div>
+                <div id="menu" class="span6">
+                    <div class="row-fluid">
+                        <div class="span4">
+                            <div class="menu-div">
+                                <h4>For Students</h4>
+                                <ul class="unstyled">
+                                    <li><a class="disabled" rel="tooltip" title="Coming Soon!" disabled="disabled" href="">Events</a></li>
+                                    <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Seminar</a></li>
+                                    <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Competition</a></li>
+                                    <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Resources</a></li>
+                                </ul>                                
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="menu-div">
+                                <h4>For Firms</h4>
+                                <ul class="unstyled">
+                                    <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Host an Event</a></li>
+                                    <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Fall Competition</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="menu-div">
+                                <h4>The Club</h4>
+                                <ul class="unstyled">
+                                    <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">About Us</a></li>
+                                    <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">How to Join</a></li>
+                                    <li><a href="{% url contact_us %}">Contact Us</a></li>
+                                    <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        	</div>
+        	<div id="page">
+               <div class="page-header">
+                   {% block page_header %}
+                   {% endblock %}
+               </div>
+               <div id="content">
+                   <div class="row-fluid">
+                       {% block content %}
+                       {% endblock %}
+                    </div>
+                </div>
+        	</div>
+        </div>
     </body>
 </html>

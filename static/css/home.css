@@ -1,0 +1,22 @@
+#header{
+    margin-top:20%;
+}
+.hero-unit{
+    padding:40px;
+}
+.info{
+     float:left;
+     width:46%;
+}
+.info li, .info p{
+    font-size:16px;
+    font-weight:200;
+    line-height:25px;
+    margin-bottom:2px;
+}
+.info .action{
+    margin-top:20px;
+}
+.media{
+    margin-left:50%;
+}

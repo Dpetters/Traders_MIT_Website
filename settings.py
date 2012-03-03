@@ -72,6 +72,7 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+	'compressor.finders.CompressorFinder'
 )
 
 # Make this unique, and don't share it with anybody.
@@ -92,11 +93,30 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    "django.core.context_processors.request",
+    "django.contrib.auth.context_processors.auth",
+    "django.core.context_processors.debug",
+    "django.core.context_processors.i18n",
+    "django.core.context_processors.media",
+    "django.core.context_processors.static",
+    "django.contrib.messages.context_processors.messages",
+)
+
 ROOT_URLCONF = 'urls'
 
 TEMPLATE_DIRS = (
 	ROOT + "/templates",
 )
+
+# Email Settings
+AWS_ACCESS_KEY_ID = 'AKIAJD32PEOKIG4RK3NQ'
+AWS_SECRET_ACCESS_KEY = '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'
+EMAIL_BACKEND = 'django_ses.SESBackend'
+
+# Emails sent to users will be coming from this email address
+DEFAULT_FROM_EMAIL = 'Traders@MIT <traders@mit.edu>'
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -107,7 +127,16 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
-    'core'
+    'core',
+    'compressor',
+    'django_ses',
+    'concurrent_server',
+    'south'
+)
+
+COMPRESS_CSS_FILTERS = (
+    'compressor.filters.css_default.CssAbsoluteFilter',
+    'compressor.filters.cssmin.CSSMinFilter',
 )
 
 # A sample logging configuration. The only tangible logging

@@ -146,18 +146,33 @@ COMPRESS_CSS_FILTERS = (
 # more details on how to customize your logging configuration.
 LOGGING = {
     'version': 1,
-    'disable_existing_loggers': False,
+	'disable_existing_loggers': True,
+	'formatters': {
+		'standard': {
+			'format': '%(asctime)s [%(levelname)s] %(name)s: %(message)s'
+		},
+		'simple': {
+			'format': '%(levelname)s %(message)s'
+		}
+	},
     'handlers': {
         'mail_admins': {
             'level': 'ERROR',
             'class': 'django.utils.log.AdminEmailHandler'
-        }
+        },
+		'file_handler': {
+			'level':'DEBUG',
+			'class': 'logging.handlers.RotatingFileHandler',
+			'filename': ROOT + '/logs/traders.log',
+			'maxBytes': 1024*1024*10,
+			'backupCount': 5,
+			'formatter':'standard',
+		},
     },
     'loggers': {
         'django.request': {
-            'handlers': ['mail_admins'],
-            'level': 'ERROR',
-            'propagate': True,
+            'handlers': ['mail_admins', 'file_handler'],
+            'level': 'WARNING',
         },
     }
 }

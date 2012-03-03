@@ -13,7 +13,9 @@ index
 .project
 .pydevproject
 .settings
+/static/CACHE
 /media
+settings_prod.py
 settings_local.py
 *.DS_Store
 *.psd

@@ -130,7 +130,6 @@ INSTALLED_APPS = (
     'core',
     'compressor',
     'django_ses',
-    'concurrent_server',
     'south'
 )
 

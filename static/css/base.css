@@ -14,12 +14,13 @@ a.disabled:hover{
     margin-top:10%;
 }
 #header #logo{
-    padding-right:110px;
+    padding-right:90px;
     position:relative;
-    bottom:10px;
+    bottom:8px;
+    padding-left:10px;
 }
 #header .menu-div{
-    border-left: 1px solid #EBEBEC;
+    border-left: 1px solid #EEE;
     padding-left:12px;
 }
 #header .menu-div h4{

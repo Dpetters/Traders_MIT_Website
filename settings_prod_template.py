@@ -9,9 +9,7 @@ ADMINS = (
 )
 MANAGERS = ADMINS
 
-STATICFILES_DIRS = (
-    ROOT + "/static/",
-)
+ADMIN_MEDIA_PREFIX = '/__scripts/django/media/'
 
 DATABASES = {
 	'default':{

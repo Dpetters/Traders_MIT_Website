@@ -1,17 +1,6 @@
 import os
 ROOT = os.path.dirname(os.path.realpath(__file__)).replace("\\", "/")
 
-DATABASES = {
-	'default':{
-		'ENGINE':'django.db.backends.sqlite3',
-		'NAME': ROOT + '/database.db',
-		'USER': '',
-		'PASSWORD': '',
-		'HOST': '',
-		'PORT': '',
-	}
-}
-
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
@@ -27,6 +16,8 @@ LANGUAGE_CODE = 'en-us'
 
 SITE_ID = 1
 
+MEDIA_MODELS = {}
+
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
 USE_I18N = True
@@ -34,6 +25,8 @@ USE_I18N = True
 # If you set this to False, Django will not format dates, numbers and
 # calendars according to the current locale
 USE_L10N = True
+
+PROD_MEDIA_ROOT = ROOT + '/prod_media/'
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
@@ -52,19 +45,18 @@ STATIC_ROOT = ROOT + '/static/'
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # URL prefix for admin static files -- CSS, JavaScript and images.
 # Make sure to use a trailing slash.
 # Examples: "http://foo.com/static/admin/", "/static/admin/".
-ADMIN_MEDIA_PREFIX = '/test/static/admin/'
+ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 # List of finder classes that know how to find static files in
 # various locations.
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 	'compressor.finders.CompressorFinder'
 )
 
@@ -75,7 +67,6 @@ SECRET_KEY = 'u^z=+ez-97)*9(4d1%$++&3n^+h9f#x_*g!4h9=#^^^9_k5w5+'
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
-#     'django.template.loaders.eggs.Loader',
 )
 
 MIDDLEWARE_CLASSES = (

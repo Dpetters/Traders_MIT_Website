@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+About Us | 
+{% endblock %}
+
+{% block page_header %}
+    <h2>About Us</h2>
+{% endblock %}
+                               
+{% block content %}
+<div class="span12">
+    <h3>Exec Team</h3>
+    <ul>
+        {% for exec_member in current_exec_members %}
+        <li>
+            <h2>{{exec_member.user.first_name}} {{exec_member.user.last_name}}</h2>
+            <a href="mailto:{{exec_member.user.email}}">{{exec_member.user.email}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

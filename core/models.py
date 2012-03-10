@@ -4,6 +4,7 @@ from core.managers import BoardMemberManager
 from core.model_helpers import get_image_filename
 
 from django.contrib.auth.models import User
+from django.contrib.localflavor.us.models import PhoneNumberField
 from django.db import models
 
 
@@ -52,11 +53,13 @@ class BoardMember(models.Model):
     
 
 class ExecMember(BoardMember):
-    school_year = models.ForeignKey(SchoolYear, blank = True, null=True)
-    graduation_year = models.ForeignKey(GraduationYear, blank = True, null=True)
-    major = models.ForeignKey(Course, related_name = "first_major", blank = True, null=True)
+    school_year = models.ForeignKey(SchoolYear, null=True)
+    graduation_year = models.ForeignKey(GraduationYear, null=True)
+    major = models.ForeignKey(Course, related_name = "first_major", null=True)
     website = models.URLField(verify_exists=False, blank = True, null=True)
     image = models.ImageField(upload_to=get_image_filename, blank=True, null=True)
+    phone = PhoneNumberField("Main Contact Phone #", blank = True, null=True)
+    blurb = models.TextField(blank=True, null=True)
     
     joined = models.DateTimeField(default=datetime.datetime.now())
     left = models.DateTimeField(default=datetime.datetime.now(), blank=True, null=True)

@@ -1,0 +1,29 @@
+.exec{
+    margin-top:10px;
+    list-style:none;
+    margin-left:0;
+}
+.exec img{
+    float:left;
+    margin-right:10px;
+}
+.exec .year_major{
+    color:#999;
+    margin-top:-5px;
+    margin-bottom:0px;
+}
+.exec li{
+    min-height:220px;
+}
+.website, .email{
+    display:block;
+}
+.exec .website{
+    margin-top:3px;
+}
+.exec .phone{
+    margin-top:2px;
+}
+.exec .blurb{
+    margin-top:5px;
+}

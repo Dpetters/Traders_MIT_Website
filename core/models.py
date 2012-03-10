@@ -53,6 +53,7 @@ class BoardMember(models.Model):
     
 
 class ExecMember(BoardMember):
+    school_year = models.ForeignKey(SchoolYear, null=True)
     graduation_year = models.ForeignKey(GraduationYear, null=True)
     major = models.ForeignKey(Course, related_name = "first_major", null=True)
     website = models.URLField(verify_exists=False, blank = True, null=True)

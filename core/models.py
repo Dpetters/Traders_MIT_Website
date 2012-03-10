@@ -62,6 +62,6 @@ class ExecMember(BoardMember):
     blurb = models.TextField(blank=True, null=True)
     
     joined = models.DateTimeField(default=datetime.datetime.now())
-    left = models.DateTimeField(default=datetime.datetime.now(), blank=True, null=True)
+    left = models.DateTimeField(blank=True, null=True)
     
     objects = BoardMemberManager()

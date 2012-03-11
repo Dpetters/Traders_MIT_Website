@@ -31,4 +31,3 @@ def commit_data():
             model_labels.append("%s.%s" % (app, model))
         local("python manage.py dumpdata %s --indent=1 > %s/initial_data.json" % (" ".join(model_labels), fixtures_dir))
     local("python copy_media.py out")
-    local("python manage.py dumpdata --indent=1 --exclude contenttypes --exclude auth.permission > ./initial_data.json")

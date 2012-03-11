@@ -35,7 +35,7 @@ About Us |
             {% if exec_member.phone %}
                 <p class="phone">{{exec_member.phone}} </p>
             {% endif %}
-            <p class="blurb">{{exec_member.blurb}}</p>
+            <p class="blurb">{{exec_member.blurb|safe}}</p>
         </li>
         {% endfor %}
     </ul>

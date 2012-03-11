@@ -11,4 +11,4 @@ def load_data():
                 
 def commit_data():
     local("python copy_media.py out")
-    local("python manage.py dumpdata --indent=1 --exclude contenttypes > ./initial_data.json")
+    local("python manage.py dumpdata --indent=1 --exclude contenttypes --exclude auth.permission > ./initial_data.json")

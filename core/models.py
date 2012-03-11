@@ -38,7 +38,9 @@ class BoardMember(models.Model):
     def __unicode__(self):
         return "%s %s" % (self.user.first_name, self.user.last_name)
     
-
+    class Meta:
+        ordering = ['user__first_name']
+        
 class ExecMember(BoardMember):
     graduation_year = models.ForeignKey(GraduationYear, null=True)
     major = models.ForeignKey(Course, related_name = "first_major", null=True)

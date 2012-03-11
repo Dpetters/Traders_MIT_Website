@@ -28,7 +28,7 @@ def main():
     model_paths = []
     for m in models.get_models():
         if get_filefields(m):
-            model_paths.append("%s/%s" % (m.__module__.split(".")[-2], m._meta.object_name))
+            model_paths.append("%s/%s" % (m.__module__.split(".")[-2], m._meta.object_name.lower()))
     
     print model_paths
 

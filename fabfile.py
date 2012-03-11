@@ -17,7 +17,7 @@ def load_data():
     local("python manage.py loaddata ./initial_data.json")
                 
 def commit_data():
-    local("python manage.py dumpdata sites auth.group --indent=1 > ./initial_data.json")
+    local("python manage.py dumpdata sites auth.group auth.user --indent=1 > ./initial_data.json")
     directories = ""
     for app in DATA_MODELS:
         model_labels = []

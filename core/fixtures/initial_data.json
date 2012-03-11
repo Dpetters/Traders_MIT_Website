@@ -1,0 +1,438 @@
+[
+ {
+  "pk": 1, 
+  "model": "core.course", 
+  "fields": {
+   "num": "1", 
+   "sort_order": 1.0, 
+   "name": "Civil and Environmental Engineering"
+  }
+ }, 
+ {
+  "pk": 2, 
+  "model": "core.course", 
+  "fields": {
+   "num": "2", 
+   "sort_order": 2.0, 
+   "name": "Mechanical Engineering"
+  }
+ }, 
+ {
+  "pk": 3, 
+  "model": "core.course", 
+  "fields": {
+   "num": "2-A", 
+   "sort_order": 2.25, 
+   "name": "Mechanical Engineering (Flexible)"
+  }
+ }, 
+ {
+  "pk": 4, 
+  "model": "core.course", 
+  "fields": {
+   "num": "2-OE", 
+   "sort_order": 2.75, 
+   "name": "Mechanical and Ocean Engineering"
+  }
+ }, 
+ {
+  "pk": 5, 
+  "model": "core.course", 
+  "fields": {
+   "num": "3", 
+   "sort_order": 3.0, 
+   "name": "Materials Science and Engineering"
+  }
+ }, 
+ {
+  "pk": 6, 
+  "model": "core.course", 
+  "fields": {
+   "num": "4", 
+   "sort_order": 4.0, 
+   "name": "Architecture"
+  }
+ }, 
+ {
+  "pk": 7, 
+  "model": "core.course", 
+  "fields": {
+   "num": "5", 
+   "sort_order": 5.0, 
+   "name": "Chemistry"
+  }
+ }, 
+ {
+  "pk": 8, 
+  "model": "core.course", 
+  "fields": {
+   "num": "6-1", 
+   "sort_order": 6.0, 
+   "name": "Electrical Science and Engineering"
+  }
+ }, 
+ {
+  "pk": 9, 
+  "model": "core.course", 
+  "fields": {
+   "num": "6-2", 
+   "sort_order": 7.0, 
+   "name": "Electrical Engineering & Computer Science"
+  }
+ }, 
+ {
+  "pk": 10, 
+  "model": "core.course", 
+  "fields": {
+   "num": "6-3", 
+   "sort_order": 8.0, 
+   "name": "Computer Science and Engineering"
+  }
+ }, 
+ {
+  "pk": 11, 
+  "model": "core.course", 
+  "fields": {
+   "num": "6-7", 
+   "sort_order": 8.5, 
+   "name": "Computer Science and Molecular Biology"
+  }
+ }, 
+ {
+  "pk": 12, 
+  "model": "core.course", 
+  "fields": {
+   "num": "7", 
+   "sort_order": 9.0, 
+   "name": "Biology"
+  }
+ }, 
+ {
+  "pk": 13, 
+  "model": "core.course", 
+  "fields": {
+   "num": "8", 
+   "sort_order": 10.0, 
+   "name": "Physics"
+  }
+ }, 
+ {
+  "pk": 14, 
+  "model": "core.course", 
+  "fields": {
+   "num": "9", 
+   "sort_order": 11.0, 
+   "name": "Brain and Cognitive Sciences"
+  }
+ }, 
+ {
+  "pk": 15, 
+  "model": "core.course", 
+  "fields": {
+   "num": "10", 
+   "sort_order": 12.0, 
+   "name": "Chemical Engineering"
+  }
+ }, 
+ {
+  "pk": 16, 
+  "model": "core.course", 
+  "fields": {
+   "num": "11", 
+   "sort_order": 13.0, 
+   "name": "Urban Studies and Planning"
+  }
+ }, 
+ {
+  "pk": 17, 
+  "model": "core.course", 
+  "fields": {
+   "num": "12", 
+   "sort_order": 14.0, 
+   "name": "Earth, Atmosphere & Planetary Sciences"
+  }
+ }, 
+ {
+  "pk": 18, 
+  "model": "core.course", 
+  "fields": {
+   "num": "13", 
+   "sort_order": 15.0, 
+   "name": "Ocean Engineering"
+  }
+ }, 
+ {
+  "pk": 19, 
+  "model": "core.course", 
+  "fields": {
+   "num": "14", 
+   "sort_order": 16.0, 
+   "name": "Economics"
+  }
+ }, 
+ {
+  "pk": 20, 
+  "model": "core.course", 
+  "fields": {
+   "num": "15", 
+   "sort_order": 17.0, 
+   "name": "Management"
+  }
+ }, 
+ {
+  "pk": 21, 
+  "model": "core.course", 
+  "fields": {
+   "num": "16", 
+   "sort_order": 18.0, 
+   "name": "Aeronautics and Astronautics"
+  }
+ }, 
+ {
+  "pk": 22, 
+  "model": "core.course", 
+  "fields": {
+   "num": "17", 
+   "sort_order": 19.0, 
+   "name": "Political Science"
+  }
+ }, 
+ {
+  "pk": 23, 
+  "model": "core.course", 
+  "fields": {
+   "num": "18", 
+   "sort_order": 20.0, 
+   "name": "Mathematics"
+  }
+ }, 
+ {
+  "pk": 24, 
+  "model": "core.course", 
+  "fields": {
+   "num": "20", 
+   "sort_order": 21.0, 
+   "name": "Biological Engineering"
+  }
+ }, 
+ {
+  "pk": 25, 
+  "model": "core.course", 
+  "fields": {
+   "num": "21A", 
+   "sort_order": 22.0, 
+   "name": "Anthropology"
+  }
+ }, 
+ {
+  "pk": 26, 
+  "model": "core.course", 
+  "fields": {
+   "num": "21F", 
+   "sort_order": 23.0, 
+   "name": "Foreign Languages and Literatures"
+  }
+ }, 
+ {
+  "pk": 27, 
+  "model": "core.course", 
+  "fields": {
+   "num": "21H", 
+   "sort_order": 24.0, 
+   "name": "History"
+  }
+ }, 
+ {
+  "pk": 28, 
+  "model": "core.course", 
+  "fields": {
+   "num": "21L", 
+   "sort_order": 25.0, 
+   "name": "Literature"
+  }
+ }, 
+ {
+  "pk": 29, 
+  "model": "core.course", 
+  "fields": {
+   "num": "21M", 
+   "sort_order": 26.0, 
+   "name": "Music and Theater Arts"
+  }
+ }, 
+ {
+  "pk": 30, 
+  "model": "core.course", 
+  "fields": {
+   "num": "21W", 
+   "sort_order": 27.0, 
+   "name": "Writing and Humanistic Studies"
+  }
+ }, 
+ {
+  "pk": 31, 
+  "model": "core.course", 
+  "fields": {
+   "num": "22", 
+   "sort_order": 28.0, 
+   "name": "Nuclear Engineering"
+  }
+ }, 
+ {
+  "pk": 32, 
+  "model": "core.course", 
+  "fields": {
+   "num": "24", 
+   "sort_order": 29.0, 
+   "name": "Linguistics and Philosophy"
+  }
+ }, 
+ {
+  "pk": 33, 
+  "model": "core.course", 
+  "fields": {
+   "num": "CMS", 
+   "sort_order": 30.0, 
+   "name": "Comparable Media Studies"
+  }
+ }, 
+ {
+  "pk": 34, 
+  "model": "core.course", 
+  "fields": {
+   "num": "CSB", 
+   "sort_order": 31.0, 
+   "name": "Computational and Systems Biology"
+  }
+ }, 
+ {
+  "pk": 35, 
+  "model": "core.course", 
+  "fields": {
+   "num": "ESD", 
+   "sort_order": 32.0, 
+   "name": "Engineering Systems"
+  }
+ }, 
+ {
+  "pk": 36, 
+  "model": "core.course", 
+  "fields": {
+   "num": "HST", 
+   "sort_order": 33.0, 
+   "name": "Health Sciences and Technology"
+  }
+ }, 
+ {
+  "pk": 1, 
+  "model": "core.graduationyear", 
+  "fields": {
+   "year": 2012
+  }
+ }, 
+ {
+  "pk": 2, 
+  "model": "core.graduationyear", 
+  "fields": {
+   "year": 2013
+  }
+ }, 
+ {
+  "pk": 3, 
+  "model": "core.graduationyear", 
+  "fields": {
+   "year": 2014
+  }
+ }, 
+ {
+  "pk": 4, 
+  "model": "core.graduationyear", 
+  "fields": {
+   "year": 2015
+  }
+ }, 
+ {
+  "pk": 1, 
+  "model": "core.boardmember", 
+  "fields": {
+   "user": 1
+  }
+ }, 
+ {
+  "pk": 2, 
+  "model": "core.boardmember", 
+  "fields": {
+   "user": 2
+  }
+ }, 
+ {
+  "pk": 3, 
+  "model": "core.boardmember", 
+  "fields": {
+   "user": 3
+  }
+ }, 
+ {
+  "pk": 4, 
+  "model": "core.boardmember", 
+  "fields": {
+   "user": 4
+  }
+ }, 
+ {
+  "pk": 1, 
+  "model": "core.execmember", 
+  "fields": {
+   "website": "", 
+   "major": null, 
+   "image": "", 
+   "joined": "2012-03-03 20:49:54", 
+   "phone": null, 
+   "graduation_year": null, 
+   "blurb": null, 
+   "left": null
+  }
+ }, 
+ {
+  "pk": 2, 
+  "model": "core.execmember", 
+  "fields": {
+   "website": "", 
+   "major": null, 
+   "image": "", 
+   "joined": "2012-03-03 23:47:05", 
+   "phone": null, 
+   "graduation_year": null, 
+   "blurb": null, 
+   "left": null
+  }
+ }, 
+ {
+  "pk": 3, 
+  "model": "core.execmember", 
+  "fields": {
+   "website": "", 
+   "major": 8, 
+   "image": "", 
+   "joined": "2012-03-09 21:30:06", 
+   "phone": "", 
+   "graduation_year": 3, 
+   "blurb": "", 
+   "left": null
+  }
+ }, 
+ {
+  "pk": 4, 
+  "model": "core.execmember", 
+  "fields": {
+   "website": "", 
+   "major": 20, 
+   "image": "", 
+   "joined": "2012-03-09 21:34:30", 
+   "phone": "", 
+   "graduation_year": 1, 
+   "blurb": "", 
+   "left": null
+  }
+ }
+]

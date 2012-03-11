@@ -1196,54 +1196,6 @@
  }, 
  {
   "pk": 1, 
-  "model": "core.schoolyear", 
-  "fields": {
-   "name": "Senior", 
-   "name_plural": "Seniors"
-  }
- }, 
- {
-  "pk": 2, 
-  "model": "core.schoolyear", 
-  "fields": {
-   "name": "Junior", 
-   "name_plural": "Juniors"
-  }
- }, 
- {
-  "pk": 3, 
-  "model": "core.schoolyear", 
-  "fields": {
-   "name": "Sophomore", 
-   "name_plural": "Sophomores"
-  }
- }, 
- {
-  "pk": 4, 
-  "model": "core.schoolyear", 
-  "fields": {
-   "name": "Freshman", 
-   "name_plural": "Freshmen"
-  }
- }, 
- {
-  "pk": 5, 
-  "model": "core.schoolyear", 
-  "fields": {
-   "name": "Graduate - Masters", 
-   "name_plural": "Graduates - Masters"
-  }
- }, 
- {
-  "pk": 6, 
-  "model": "core.schoolyear", 
-  "fields": {
-   "name": "Graduate - PHD", 
-   "name_plural": "Gradutes - PHD"
-  }
- }, 
- {
-  "pk": 1, 
   "model": "core.graduationyear", 
   "fields": {
    "year": 2012
@@ -1631,7 +1583,6 @@
    "image": "", 
    "joined": "2012-03-03 20:49:54", 
    "phone": null, 
-   "school_year": 2, 
    "graduation_year": null, 
    "blurb": null, 
    "left": null
@@ -1646,7 +1597,6 @@
    "image": "", 
    "joined": "2012-03-03 23:47:05", 
    "phone": null, 
-   "school_year": 4, 
    "graduation_year": null, 
    "blurb": null, 
    "left": null
@@ -1661,7 +1611,6 @@
    "image": "", 
    "joined": "2012-03-09 21:30:06", 
    "phone": "", 
-   "school_year": 3, 
    "graduation_year": 3, 
    "blurb": "", 
    "left": null
@@ -1676,7 +1625,6 @@
    "image": "", 
    "joined": "2012-03-09 21:34:30", 
    "phone": "", 
-   "school_year": 1, 
    "graduation_year": 1, 
    "blurb": "", 
    "left": null
@@ -1707,6 +1655,15 @@
    "applied": "2012-03-10 03:29:41", 
    "app_name": "core", 
    "migration": "0003_auto__add_field_execmember_phone__add_field_execmember_blurb"
+  }
+ }, 
+ {
+  "pk": 4, 
+  "model": "south.migrationhistory", 
+  "fields": {
+   "applied": "2012-03-11 19:51:36", 
+   "app_name": "core", 
+   "migration": "0004_auto__del_schoolyear__del_field_execmember_school_year"
   }
  }
 ]

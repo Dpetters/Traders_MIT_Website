@@ -7,19 +7,6 @@ from django.contrib.auth.models import User
 from django.contrib.localflavor.us.models import PhoneNumberField
 from django.db import models
 
-
-class SchoolYear(models.Model):
-    name = models.CharField("School Year", max_length=42, unique=True, help_text="Maximum 42 characters.")
-    name_plural = models.CharField("School Year Verbose", max_length=43, unique=True, help_text="Maximum 42 characters.", null=True)
-    
-    class Meta:
-        verbose_name = "School Year"
-        verbose_name_plural = "School Years"
-        
-    def __unicode__(self):
-        return self.name
-
-
 class GraduationYear(models.Model):
     year = models.PositiveSmallIntegerField("Graduation Year", unique=True)
 
@@ -53,7 +40,6 @@ class BoardMember(models.Model):
     
 
 class ExecMember(BoardMember):
-    school_year = models.ForeignKey(SchoolYear, null=True)
     graduation_year = models.ForeignKey(GraduationYear, null=True)
     major = models.ForeignKey(Course, related_name = "first_major", null=True)
     website = models.URLField(verify_exists=False, blank = True, null=True)

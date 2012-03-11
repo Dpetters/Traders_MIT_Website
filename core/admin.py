@@ -3,7 +3,7 @@ from __future__ import absolute_import
 
 from django.contrib import admin
 
-from core.models import  Course, SchoolYear, GraduationYear, BoardMember, ExecMember
+from core.models import  Course, GraduationYear, BoardMember, ExecMember
 
 
 class BoardMemberAdmin(admin.ModelAdmin):
@@ -14,12 +14,6 @@ admin.site.register(BoardMember, BoardMemberAdmin)
 class ExecMemberAdmin(admin.ModelAdmin):
     pass
 admin.site.register(ExecMember, ExecMemberAdmin)
-
-
-class SchoolYearAdmin(admin.ModelAdmin):
-    fields = ['name', 'name_plural']
-
-admin.site.register(SchoolYear, SchoolYearAdmin)
 
 
 class GraduationYearAdmin(admin.ModelAdmin):

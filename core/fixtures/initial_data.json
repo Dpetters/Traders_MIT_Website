@@ -383,13 +383,13 @@
   "pk": 1, 
   "model": "core.execmember", 
   "fields": {
-   "website": "", 
-   "major": null, 
-   "image": "", 
+   "website": "http://www.dmitrijpetters.com/", 
+   "major": 10, 
+   "image": "core/execmember/dpetters_2012-03-11-15-38-00.gif", 
    "joined": "2012-03-03 20:49:54", 
-   "phone": null, 
-   "graduation_year": null, 
-   "blurb": null, 
+   "phone": "425-681-2953", 
+   "graduation_year": 2, 
+   "blurb": "", 
    "left": null
   }
  }, 

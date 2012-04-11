@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Events | 
+{% endblock %}
+
+{% block meta %}
+    {% load compress %}
+
+    {% compress css %}
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/core/events.css">
+    {% endcompress %}
+
+{% endblock %}
+
+{% block page_header %}
+    <h2>Events</h2>
+{% endblock %}
+
+{% block content %}
+<h1>Traders@MIT Spring Competition</h1>
+<p class="lead">Saturday, May 5th from 12:30PM - 5:00PM in room 32-141</p>
+<p>The goal of this competition is to let MIT undergraduates get an idea of what trading is like and to practice basic trading concepts.  This is a low pressure event geared towards students with little to no prior trading experience.  If you have ever wondered what trading is about or you want try to go for the first place prize, we hope that you come to the Spring Competition!</p>
+
+<p>Participation in the tournament is in teams of two.  When you register please put the name and MIT email of your partner.  If you don’t have a partner, that’s ok, let us know and we will pair you up with someone else who registered without a partner.</p>
+
+<p>Every participant needs to bring their own laptop with the Rotman Client installed.  If you have a mac, we suggest you install a <a href="http://ist.mit.edu/software-hardware?type=39&platform=Macintosh&users=All&keywords=&recommended_only=1">free Windows virtual machine</a> From MIT IS&T to be able to run the client.</p>
+
+<h2>Schedule</h2>
+<ul>
+<li>12:30 - 1:30 PM  Lunch Chipotle (for people who pre-register), computer set-up</li>
+<li>1:30 – 2:30 PM Social Outcry  (30%)</li>
+<li>2:30 - 3:30 PM  Sales and Trader (35%)</li>
+<li>3:30  - 4:30 PM  Price Discovery  (35%)</li>
+<li>4:30 - 5:00 PM  Announce Competition winners!</li>
+</ul>
+
+<h2><a href="https://docs.google.com/spreadsheet/viewform?formkey=dElqem1VUGZmczA5UlFHT1dvNmRvbWc6MQ#gid=0">Register now!</a></h2>
+<br>
+
+<h2>Overall Prize winners</h2>
+<div id="prizes">
+    <div>
+        <h3>First Place Prize</h3>
+        <p>2 x $100 Amazon Gift Cards</p>
+    </div>
+    <div>
+        <h3>Second Place Prize</h3>
+        <p>2 x $50 Amazon Gift Cards</p>
+    </div>
+    <div>
+        <h3>Third Place Prize</h3>
+        <p>2 x $25 Amazon Gift Cards</p>
+    </div>
+</div>
+<p><b>In addition, winners of each case (price discovery, s&t, social outcry) will each receive a trading book.</b></p> 
+<br>
+
+<h2>Practice Sessions</h2>
+<p>If you are new to trading and the Rotman software, don’t stress!  We will be hosting three introductory sessions to get the Rotman Interactive Trader software on your computer, walk through the basics of using it and give you some hints on strategies for the competition.  The times are -</p>
+<ul>
+<li>Saturday, May 5th  11:00-12:30 PM       Room 32-141</li>
+<li>Thursday, May 3th    7:00-8:30PM         Room  3-442</li>
+<li>Monday, April 30th   7:00-8:30PM           Room  3-442</li>
+</ul>
+<br>
+<h2>Materials for the competition</h2>
+<ul>
+<li><a href="http://rit.rotman.utoronto.ca/software.asp">Rotman Client</a> (please install version 1.75)</li> 
+<li><a href="http://rit.rotman.utoronto.ca/cases/Microstructure%202%20-%20Tutorial.pdf">Rotman Tutorial</a></li>
+</ul>
+<br>
+ 
+<h2>FAQ</h2>
+<p><b>Q: I’m a masters or PhD student at MIT, can I still participate?</b> </p>
+<p>A: First priority is for MIT undergraduates, however we don’t expect to fill the competition room with just MIT undergraduates.  Feel free to register, and we will let you know beforehand if there will be enough spots.</p>
+
+<p><b>Q: Is the same as the Traders@MIT Intercollegiate Fall Competition?</b></p>
+<p>A: No, this is a low pressure, educational event aimed at people with little prior experience. We see it as a way to prepare for the Fall Competition - learn to trade at the Spring Competition, then impress company sponsors at the Fall Competition!</p>
+{% endblock %}

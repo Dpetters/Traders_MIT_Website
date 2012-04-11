@@ -10,7 +10,6 @@
         {% load compress %}
         
         <link rel="stylesheet" href="{{ STATIC_URL }}lib/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="{{ STATIC_URL }}lib/bootstrap/css/bootstrap-responsive.min.css">
         
         {% compress css %}
             <link rel="stylesheet" href="{{ STATIC_URL }}css/base.css">
@@ -42,17 +41,15 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div id="header" class="row-fluid">
-                <div class="span6">
-                    <div id="logo">
-                        <a href="{% url home %}"><img src="{{ STATIC_URL }}images/logo.png" /></a>
-                    </div>
+            <div id="header">
+                <div id="logo">
+                    <a href="{% url home %}"><img src="{{ STATIC_URL }}images/logo.png" /></a>
                 </div>
-                <div id="menu" class="span6">
+                <div id="menu">
                     <div class="menu-div">
                         <h4>For Students</h4>
                         <ul class="unstyled">
-                            <li><a class="disabled" rel="tooltip" title="Coming Soon!" disabled="disabled" href="">Events</a></li>
+                            <li><a href="{% url events %}">Events</a></li>
                             <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Seminar</a></li>
                             <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Fall Competition</a></li>
                             <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Resources</a></li>
@@ -82,10 +79,8 @@
                    {% endblock %}
                </div>
                <div id="content">
-                   <div class="row-fluid">
-                       {% block content %}
-                       {% endblock %}
-                    </div>
+                   {% block content %}
+                   {% endblock %}
                 </div>
         	</div>
         </div>

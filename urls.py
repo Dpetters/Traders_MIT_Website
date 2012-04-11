@@ -17,6 +17,7 @@ urlpatterns += patterns('core.views',
    (r'^$', 'home', {}, 'home'),
    (r'^about$', 'about_us', {}, 'about_us'),   
    (r'^contact-us$', direct_to_template, {'template':'contact_us.html'}, 'contact_us'),
+   (r'^events/$', 'events', {}, 'events'),   
 )
 
 urlpatterns += staticfiles_urlpatterns()

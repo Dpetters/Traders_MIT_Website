@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Events | 
+{% endblock %}
+
+{% block meta %}
+    {% load compress %}
+
+    {% compress css %}
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/event/events.css">
+    {% endcompress %}
+
+{% endblock %}
+
+{% block page_header %}
+    <h2>Events</h2>
+{% endblock %}
+
+{% block content %}
+    {% for event in events %}
+        <div class="event_main_info_right right_side_container">
+            <h3>Location: {{event.location}}</h3>
+            {% include 'event_rsvp.html' %}
+        </div>
+        <div class="event_main_info_left">
+            <h1>{{event.name}}</h1>
+            <h3 class="datetime">
+                <strong>{{event.start_datetime|date:"D F j"}}</strong>, {{event.start_datetime|date:"Y"}}
+                {% if event.start_datetime.day == event.end_datetime.day and event.start_datetime.month == event.end_datetime.month and event.start_datetime.year == event.end_datetime.year  %}
+                    from <em>{{event.start_datetime|date:"h:i A"}}</em> - <em>{{event.end_datetime|date:"h:i A"}}</em>
+                {% else %}
+                    <em>{{event.start_datetime|date:"h:i A"}}</em> - <strong>{{event.end_datetime|date:"D, F j"}}</strong>, {{event.end_datetime|date:"Y"}} <em>{{event.end_datetime|date:"h:i A"}}</em>
+                {% endif %}
+            </h3>
+        </div>
+
+        
+        {% if event.attending_employers %}
+        <p><b>Attending Employers:</b> {{event.attending_employers|safe}}</p>
+        {% endif %}
+        <p>{{event.description|safe}}</p>
+    {% endfor %}
+{% endblock %}

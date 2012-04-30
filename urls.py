@@ -11,13 +11,16 @@ urlpatterns = patterns('',
     (r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.MEDIA_ROOT}),
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
     (r'^admin/', include(admin.site.urls)),
+    (r'^ckeditor/', include('ckeditor.urls')),
 )
 
 urlpatterns += patterns('core.views',
    (r'^$', 'home', {}, 'home'),
-   (r'^about$', 'about_us', {}, 'about_us'),   
-   (r'^contact-us$', direct_to_template, {'template':'contact_us.html'}, 'contact_us'),
-   (r'^events/$', 'events', {}, 'events'),   
+   (r'^about$', 'about_us', {}, 'about_us')
+)
+
+urlpatterns += patterns('event.views',
+    (r'^events/$', 'events', {}, 'events'),   
 )
 
 urlpatterns += staticfiles_urlpatterns()

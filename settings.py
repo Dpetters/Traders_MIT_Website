@@ -75,6 +75,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware'
 )
 
 
@@ -103,19 +104,51 @@ EMAIL_BACKEND = 'django_ses.SESBackend'
 DEFAULT_FROM_EMAIL = 'Traders@MIT <traders@mit.edu>'
 
 INSTALLED_APPS = (
+    'django.contrib.admin',
+    'django.contrib.admindocs',
     'django.contrib.auth',
     'django.contrib.contenttypes',
+    'django.contrib.flatpages',
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.admin',
-    'django.contrib.admindocs',
-    'core',
+    'ckeditor',
     'compressor',
-    'django_ses',
+    'core',
+    'event',
     'south'
 )
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': [
+            [      'Undo', 'Redo',
+              '-', 'Bold', 'Italic', 'Underline',
+              '-', 'Link', 'Unlink',
+              '-', 'Maximize',
+            ],
+            [      'HorizontalRule',
+              '-', 'BulletedList', 'NumberedList',
+            ]
+        ],
+        'width': 586,
+        'resize_maxWidth' : 586,
+        'resize_minWidth' : 586,
+        'resize_minHeight' : 300,
+        'height': 210,
+        'skin':'kama',
+        'toolbarCanCollapse': False,
+        'forcepasteasplaintext': True,
+        'removePlugins':'elementspath'
+    },
+}
+
+CKEDITOR_MEDIA_PREFIX = "/static/lib/ckeditor/"
+
+CKEDITOR_UPLOAD_PATH = "%sckeditor" % MEDIA_ROOT
+
+CKEDITOR_PATH = "ckeditor/"
 
 COMPRESS_CSS_FILTERS = (
     'compressor.filters.css_default.CssAbsoluteFilter',

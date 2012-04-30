@@ -6,7 +6,7 @@
         
         <link rel="icon" href="/favicon.ico" />
         
-        <title>{% block title %}{% endblock %}Traders@MIT</title>
+        <title>{% if flatpage %}{{flatpage.title}}{% else %}{% block title %}{% endblock %}{% endif %}Traders@MIT</title>
         {% load compress %}
         
         <link rel="stylesheet" href="{{ STATIC_URL }}lib/bootstrap/css/bootstrap.min.css">
@@ -40,7 +40,7 @@
         </script>
     </head>
     <body>
-        <div class="container-fluid">
+        <div id="width_container">
             <div id="header">
                 <div id="logo">
                     <a href="{% url home %}"><img src="{{ STATIC_URL }}images/logo.png" /></a>
@@ -50,25 +50,25 @@
                         <h4>For Students</h4>
                         <ul class="unstyled">
                             <li><a href="{% url events %}">Events</a></li>
-                            <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Seminar</a></li>
-                            <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Fall Competition</a></li>
-                            <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Resources</a></li>
+                            <li><a href="">Seminar</a></li>
+                            <li><a href="/student/competion/">Fall Competition</a></li>
+                            <li><a href="/student/resources/">Resources</a></li>
                         </ul>                                
                     </div>
                     <div class="menu-div">
                         <h4>For Firms</h4>
                         <ul class="unstyled">
-                            <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Host an Event</a></li>
-                            <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Fall Competition</a></li>
+                            <li><a href="/firm/host/">Host an Event</a></li>
+                            <li><a href="/firm/competition/fall/">Fall Competition</a></li>
                         </ul>
                     </div>
                     <div class="menu-div">
                         <h4>The Club</h4>
                         <ul class="unstyled">
-                            <li><a href="{% url about_us %}">About Us</a></li>
-                            <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">How to Join</a></li>
-                            <li><a href="{% url contact_us %}">Contact Us</a></li>
-                            <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="">Blog</a></li>
+                            <li><a href="/about/">About Us</a></li>
+                            <li><a href="/join/">How to Join</a></li>
+                            <li><a href="/contact/">Contact Us</a></li>
+                            <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="/blog/">Blog</a></li>
                         </ul>
                     </div>
                 </div>
@@ -79,8 +79,12 @@
                    {% endblock %}
                </div>
                <div id="content">
-                   {% block content %}
-                   {% endblock %}
+                   {% if flatpage %}
+                       {{flatpage.content}}
+                   {% else %}
+                       {% block content %}
+                       {% endblock %}
+                   {% endif %}
                 </div>
         	</div>
         </div>

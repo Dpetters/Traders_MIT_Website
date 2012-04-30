@@ -11,8 +11,3 @@ def about_us(request, extra_context=None):
 def home(request, extra_context=None):
     context = {}
     return context
-
-@render_to("events.html")
-def events(request, extra_context=None):
-    context = {}
-    return context

@@ -8,8 +8,14 @@ a.disabled:hover{
 .clearfix{
     clear:both;
 }
-.container-fluid{
-    max-width:940px;
+.right_side_container{
+    float:right;
+}
+.left_side_container{
+    float:left;
+}
+#width_container{
+    width:940px;
     margin-left:auto;
     margin-right:auto;
 }
@@ -25,10 +31,6 @@ a.disabled:hover{
 }
 #header #logo img{
     max-width:400px;
-}
-#header #menu{
-    min-width:422px;
-    margin-left:20px;
 }
 #header .menu-div{
     border-left: 1px solid #EEE;

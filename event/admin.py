@@ -13,7 +13,7 @@ class EventAdminForm(forms.ModelForm):
     class Meta:
         model = Event
         widgets = {
-                   'description': CKEditorWidget(),
+                   #'description': CKEditorWidget(),
                    }
 
 class EventAdmin(admin.ModelAdmin):

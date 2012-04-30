@@ -8,5 +8,4 @@ django-ckeditor==0.0.9
 django-compressor==1.1.2
 django-debug-toolbar==0.9.4
 pycrypto==2.5
-pywin32==217
 ssh==1.7.13

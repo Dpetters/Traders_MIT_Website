@@ -1,0 +1,226 @@
+[
+ {
+  "pk": 1, 
+  "model": "sites.site", 
+  "fields": {
+   "domain": "traders.mit.edu", 
+   "name": "traders.mit.edu"
+  }
+ }, 
+ {
+  "pk": 1, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "dpetters", 
+   "first_name": "Dmitrij", 
+   "last_name": "Petters", 
+   "is_active": true, 
+   "is_superuser": true, 
+   "is_staff": true, 
+   "last_login": "2012-04-30 15:50:13", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$76d0b$fe1835faaab7648298e89c35fcd4bfb3fd24342b", 
+   "email": "dpetters@mit.edu", 
+   "date_joined": "2012-03-03 20:48:35"
+  }
+ }, 
+ {
+  "pk": 2, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "yygu", 
+   "first_name": "Youyang", 
+   "last_name": "Gu", 
+   "is_active": true, 
+   "is_superuser": false, 
+   "is_staff": true, 
+   "last_login": "2012-03-03 23:34:16", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$dc81d$f6aadd38da3de14f9b43eb7af35d75f2d7b8044c", 
+   "email": "yygu@mit.edu", 
+   "date_joined": "2012-03-03 23:34:16"
+  }
+ }, 
+ {
+  "pk": 3, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "aaki", 
+   "first_name": "Aakanksha", 
+   "last_name": "Sarda", 
+   "is_active": true, 
+   "is_superuser": false, 
+   "is_staff": true, 
+   "last_login": "2012-03-09 21:11:31", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$ac8ef$d23b8b0a3154a1d0bcf03359042f27828d9a1731", 
+   "email": "aaki@mit.edu", 
+   "date_joined": "2012-03-09 21:11:31"
+  }
+ }, 
+ {
+  "pk": 4, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "di_wu", 
+   "first_name": "Di", 
+   "last_name": "Wu", 
+   "is_active": true, 
+   "is_superuser": false, 
+   "is_staff": true, 
+   "last_login": "2012-03-09 21:35:15", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$49a38$c8a5f67d79267bf4f43c0dd8e8e9f7bc0b906d52", 
+   "email": "di_wu@mit.edu", 
+   "date_joined": "2012-03-09 21:35:15"
+  }
+ }, 
+ {
+  "pk": 5, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "hjoshi", 
+   "first_name": "Hrishikesh", 
+   "last_name": "Joshi", 
+   "is_active": true, 
+   "is_superuser": false, 
+   "is_staff": true, 
+   "last_login": "2012-03-10 00:57:08", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$d8df9$eff484836dbad9af4eae168c37258252154028d8", 
+   "email": "hjoshi@mit.edu", 
+   "date_joined": "2012-03-10 00:57:08"
+  }
+ }, 
+ {
+  "pk": 6, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "kanjun", 
+   "first_name": "Kanjun", 
+   "last_name": "Qiu", 
+   "is_active": true, 
+   "is_superuser": false, 
+   "is_staff": true, 
+   "last_login": "2012-03-10 00:57:45", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$49a35$6fcb5b7427bfc2c7a04b6343546653ffb917ca33", 
+   "email": "kanjun@mit.edu", 
+   "date_joined": "2012-03-10 00:57:45"
+  }
+ }, 
+ {
+  "pk": 7, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "ohuang", 
+   "first_name": "Oliver", 
+   "last_name": "Huang", 
+   "is_active": true, 
+   "is_superuser": false, 
+   "is_staff": true, 
+   "last_login": "2012-03-10 00:58:15", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$ad53b$f36a6aff762f09f7360db450aa1b1de1803a293c", 
+   "email": "ohuang@mit.edu", 
+   "date_joined": "2012-03-10 00:58:15"
+  }
+ }, 
+ {
+  "pk": 8, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "thilk", 
+   "first_name": "Ted", 
+   "last_name": "Hilk", 
+   "is_active": true, 
+   "is_superuser": false, 
+   "is_staff": true, 
+   "last_login": "2012-03-10 00:58:44", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$aae74$a64d3735cfe3e1f5fb9923644a161dbe5728b156", 
+   "email": "thilk@mit.edu", 
+   "date_joined": "2012-03-10 00:58:44"
+  }
+ }, 
+ {
+  "pk": 9, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "tvieira", 
+   "first_name": "Thiago", 
+   "last_name": "Vieira", 
+   "is_active": true, 
+   "is_superuser": false, 
+   "is_staff": true, 
+   "last_login": "2012-03-10 00:59:08", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$c0f04$5711e376bf4c639c066ba64c62842055ebd53068", 
+   "email": "tvieira@mit.edu", 
+   "date_joined": "2012-03-10 00:59:08"
+  }
+ }, 
+ {
+  "pk": 10, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "vok", 
+   "first_name": "Vlad", 
+   "last_name": "Kontsevoi", 
+   "is_active": true, 
+   "is_superuser": false, 
+   "is_staff": true, 
+   "last_login": "2012-03-10 00:59:36", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$93477$98fd8865ae79a45f09d5e8cd6e6ce6162e743459", 
+   "email": "vok@mit.edu", 
+   "date_joined": "2012-03-10 00:59:36"
+  }
+ }, 
+ {
+  "pk": 11, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "hj", 
+   "first_name": "", 
+   "last_name": "", 
+   "is_active": true, 
+   "is_superuser": false, 
+   "is_staff": false, 
+   "last_login": "2012-03-11 22:12:53", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$394d3$71b04dc22bcf5697d3c05731c9ff6962b13f1126", 
+   "email": "", 
+   "date_joined": "2012-03-11 22:12:53"
+  }
+ }, 
+ {
+  "pk": 12, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "hj2", 
+   "first_name": "", 
+   "last_name": "", 
+   "is_active": true, 
+   "is_superuser": false, 
+   "is_staff": false, 
+   "last_login": "2012-03-11 22:13:32", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$4a009$dd9d415a9bcdb5da1847210fa4f4f61dd9590ffb", 
+   "email": "", 
+   "date_joined": "2012-03-11 22:13:32"
+  }
+ }
+]

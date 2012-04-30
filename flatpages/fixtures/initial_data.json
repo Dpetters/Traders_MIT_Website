@@ -1,0 +1,107 @@
+[
+ {
+  "pk": 7, 
+  "model": "flatpages.flatpage", 
+  "fields": {
+   "registration_required": false, 
+   "title": "Contact | ", 
+   "url": "/contact/", 
+   "template_name": "base.html", 
+   "sites": [
+    1
+   ], 
+   "content": "<h1>Contact Us</h1>\r\n<p>For all inqueries, email traders@mit.edu.</p>", 
+   "enable_comments": false
+  }
+ }, 
+ {
+  "pk": 6, 
+  "model": "flatpages.flatpage", 
+  "fields": {
+   "registration_required": false, 
+   "title": "Fall Intercollegiate Trading Competition | ", 
+   "url": "/firm/competition/fall/", 
+   "template_name": "base.html", 
+   "sites": [
+    1
+   ], 
+   "content": "<h1>Fall Intercollegiate Trading Competition Sponsorship</h1>\r\n<p>If you are interested in sponsoring out Fall Intercollegiate Trading Competition, email traders@mit.edu</p>", 
+   "enable_comments": false
+  }
+ }, 
+ {
+  "pk": 2, 
+  "model": "flatpages.flatpage", 
+  "fields": {
+   "registration_required": false, 
+   "title": "Host an Event | ", 
+   "url": "/firm/host/", 
+   "template_name": "base.html", 
+   "sites": [
+    1
+   ], 
+   "content": "<h1>Host an Event</h1>\r\n<p>Email traders@mit.edu</p>", 
+   "enable_comments": false
+  }
+ }, 
+ {
+  "pk": 1, 
+  "model": "flatpages.flatpage", 
+  "fields": {
+   "registration_required": false, 
+   "title": "Join | ", 
+   "url": "/join/", 
+   "template_name": "base.html", 
+   "sites": [
+    1
+   ], 
+   "content": "<h1>Joining Traders@MIT</h1>\r\n<p>Email traders@mit.edu, expressing your interest!<p>", 
+   "enable_comments": false
+  }
+ }, 
+ {
+  "pk": 4, 
+  "model": "flatpages.flatpage", 
+  "fields": {
+   "registration_required": false, 
+   "title": "Fall Intercollegiate Trading Competition | ", 
+   "url": "/student/competion/fall/", 
+   "template_name": "base.html", 
+   "sites": [
+    1
+   ], 
+   "content": "<h1>Fall Intercollegiate Trading Competition</h1>\r\n<p>Traders@MIT hosts an Intercollegiate Trading Competition every year in November. The competiion is a full day event, comprised of multiple sessions in both electronic trading and open outcry (floor trading. Winners are determined by weighted rangings from each session.</p>\r\n<p>Last year, there were approximately 90 students participating from 10 universities: MIT, Harvard, UPenn, Princeton, Yale, Columbia, Northwestern, UChicago, Wellesley, and NYU.</p>", 
+   "enable_comments": false
+  }
+ }, 
+ {
+  "pk": 5, 
+  "model": "flatpages.flatpage", 
+  "fields": {
+   "registration_required": false, 
+   "title": "Resources | ", 
+   "url": "/student/resources/", 
+   "template_name": "base.html", 
+   "sites": [
+    1
+   ], 
+   "content": "<h1>Student Resources</h1>\r\n<p>Coming soon!</p>", 
+   "enable_comments": false
+  }
+ }, 
+ {
+  "pk": 3, 
+  "model": "flatpages.flatpage", 
+  "fields": {
+   "registration_required": false, 
+   "title": "Seminar | ", 
+   "url": "/student/seminar/", 
+   "template_name": "base.html", 
+   "sites": [
+    1
+   ], 
+   "content": "<h1>Trading Seminar</h1>\r\n<p>The goal of our seminar is to teach students trading fundamentals and strategies not commonly taught in business school. Our class will help prepare students for future full-time jobs and internships. At the end of the term, students will be able to understand the basics of trading and exchanges, discuss markets fluently, generate models using Excel and, most importantly, be able to create their own trading strategies.</p>", 
+   "enable_comments": false
+  }
+ }
+]

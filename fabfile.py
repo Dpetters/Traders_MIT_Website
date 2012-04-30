@@ -8,7 +8,10 @@ fabric_django.settings_module('settings')
 __all__= ["commit_data", "load_data"]
 
 DATA_MODELS = {
-    'core': ['course', 'graduationyear', 'boardmember', 'execmember']
+    'core': ['course', 'graduationyear', 'boardmember', 'execmember'],
+    'event': ['event'],
+    'sites':['site'],
+    'flatpages':['flatpage']
 }
 LOCAL_DATA_MODELS = {}
 

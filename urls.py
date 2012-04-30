@@ -16,7 +16,7 @@ urlpatterns = patterns('',
 
 urlpatterns += patterns('core.views',
    (r'^$', 'home', {}, 'home'),
-   (r'^about$', 'about_us', {}, 'about_us')
+   (r'^about/$', 'about', {}, 'about')
 )
 
 urlpatterns += patterns('event.views',

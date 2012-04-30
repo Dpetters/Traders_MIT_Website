@@ -1,3 +1,6 @@
+h1{
+    margin-bottom:8px;
+}
 a.disabled:hover{
   color: #0088cc;
   text-decoration: none;

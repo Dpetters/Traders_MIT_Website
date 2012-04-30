@@ -3,8 +3,8 @@
   "pk": 1, 
   "model": "sites.site", 
   "fields": {
-   "domain": "example.com", 
-   "name": "example.com"
+   "domain": "traders.mit.edu", 
+   "name": "traders.mit.edu"
   }
  }, 
  {
@@ -17,7 +17,7 @@
    "is_active": true, 
    "is_superuser": true, 
    "is_staff": true, 
-   "last_login": "2012-03-10 00:55:06", 
+   "last_login": "2012-04-30 15:50:13", 
    "groups": [], 
    "user_permissions": [], 
    "password": "sha1$76d0b$fe1835faaab7648298e89c35fcd4bfb3fd24342b", 

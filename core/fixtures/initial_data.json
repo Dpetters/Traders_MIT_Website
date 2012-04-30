@@ -445,7 +445,7 @@
   "fields": {
    "website": "", 
    "major": 8, 
-   "image": "", 
+   "image": "core/execmember/aaki_2012-04-30-16-00-11.gif", 
    "joined": "2012-03-09 21:30:06", 
    "phone": "", 
    "graduation_year": 3, 
@@ -459,7 +459,7 @@
   "fields": {
    "website": "", 
    "major": 20, 
-   "image": "", 
+   "image": "core/execmember/di_wu_2012-04-30-16-00-21.jpg", 
    "joined": "2012-03-09 21:34:30", 
    "phone": "", 
    "graduation_year": 1, 
@@ -570,12 +570,12 @@
   "model": "core.execmember", 
   "fields": {
    "website": "", 
-   "major": null, 
-   "image": "", 
+   "major": 10, 
+   "image": "core/execmember/yygu_2012-04-30-16-02-49.png", 
    "joined": "2012-03-03 23:47:05", 
-   "phone": null, 
-   "graduation_year": null, 
-   "blurb": null, 
+   "phone": "", 
+   "graduation_year": 4, 
+   "blurb": "", 
    "left": null
   }
  }

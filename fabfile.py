@@ -9,9 +9,7 @@ __all__= ["commit_data", "load_data"]
 
 DATA_MODELS = {
     'core': ['course', 'graduationyear', 'boardmember', 'execmember'],
-    'event': ['event'],
-    'sites':['site'],
-    'flatpages':['flatpage']
+    'event': ['event']
 }
 LOCAL_DATA_MODELS = {}
 
@@ -20,7 +18,7 @@ def load_data():
     local("python manage.py loaddata ./initial_data.json")
                 
 def commit_data():
-    local("python manage.py dumpdata sites auth.group auth.user --indent=1 > ./initial_data.json")
+    local("python manage.py dumpdata flatpages sites auth.group auth.user --indent=1 > ./initial_data.json")
     directories = ""
     for app in DATA_MODELS:
         model_labels = []

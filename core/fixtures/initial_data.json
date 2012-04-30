@@ -1,5 +1,14 @@
 [
  {
+  "pk": 38, 
+  "model": "core.course", 
+  "fields": {
+   "num": "15, 18", 
+   "sort_order": 0.0, 
+   "name": "Management, Mathematics"
+  }
+ }, 
+ {
   "pk": 1, 
   "model": "core.course", 
   "fields": {
@@ -60,6 +69,15 @@
    "num": "5", 
    "sort_order": 5.0, 
    "name": "Chemistry"
+  }
+ }, 
+ {
+  "pk": 37, 
+  "model": "core.course", 
+  "fields": {
+   "num": "6-3, 18", 
+   "sort_order": 6.0, 
+   "name": "Computer Science and Eng., Mathematics"
   }
  }, 
  {
@@ -352,20 +370,6 @@
   }
  }, 
  {
-  "pk": 1, 
-  "model": "core.boardmember", 
-  "fields": {
-   "user": 1
-  }
- }, 
- {
-  "pk": 2, 
-  "model": "core.boardmember", 
-  "fields": {
-   "user": 2
-  }
- }, 
- {
   "pk": 3, 
   "model": "core.boardmember", 
   "fields": {
@@ -381,30 +385,58 @@
  }, 
  {
   "pk": 1, 
-  "model": "core.execmember", 
+  "model": "core.boardmember", 
   "fields": {
-   "website": "http://www.dmitrijpetters.com/", 
-   "major": 10, 
-   "image": "core/execmember/dpetters_2012-03-11-15-38-00.gif", 
-   "joined": "2012-03-03 20:49:54", 
-   "phone": "425-681-2953", 
-   "graduation_year": 2, 
-   "blurb": "", 
-   "left": null
+   "user": 1
+  }
+ }, 
+ {
+  "pk": 10, 
+  "model": "core.boardmember", 
+  "fields": {
+   "user": 5
+  }
+ }, 
+ {
+  "pk": 14, 
+  "model": "core.boardmember", 
+  "fields": {
+   "user": 6
+  }
+ }, 
+ {
+  "pk": 7, 
+  "model": "core.boardmember", 
+  "fields": {
+   "user": 7
+  }
+ }, 
+ {
+  "pk": 13, 
+  "model": "core.boardmember", 
+  "fields": {
+   "user": 8
+  }
+ }, 
+ {
+  "pk": 12, 
+  "model": "core.boardmember", 
+  "fields": {
+   "user": 9
+  }
+ }, 
+ {
+  "pk": 5, 
+  "model": "core.boardmember", 
+  "fields": {
+   "user": 10
   }
  }, 
  {
   "pk": 2, 
-  "model": "core.execmember", 
+  "model": "core.boardmember", 
   "fields": {
-   "website": "", 
-   "major": null, 
-   "image": "", 
-   "joined": "2012-03-03 23:47:05", 
-   "phone": null, 
-   "graduation_year": null, 
-   "blurb": null, 
-   "left": null
+   "user": 2
   }
  }, 
  {
@@ -432,6 +464,118 @@
    "phone": "", 
    "graduation_year": 1, 
    "blurb": "", 
+   "left": null
+  }
+ }, 
+ {
+  "pk": 1, 
+  "model": "core.execmember", 
+  "fields": {
+   "website": "http://www.dmitrijpetters.com/", 
+   "major": 10, 
+   "image": "core/execmember/dpetters_2012-03-11-15-38-00.gif", 
+   "joined": "2012-03-03 20:49:54", 
+   "phone": "425-681-2953", 
+   "graduation_year": 2, 
+   "blurb": "", 
+   "left": null
+  }
+ }, 
+ {
+  "pk": 10, 
+  "model": "core.execmember", 
+  "fields": {
+   "website": "", 
+   "major": 10, 
+   "image": "core/execmember/hjoshi_2012-03-12-11-48-20.PNG", 
+   "joined": "2011-01-01 22:13:06", 
+   "phone": "", 
+   "graduation_year": 2, 
+   "blurb": "Rish is a junior at MIT studying Computer Science & Mathematics. He enjoys playing tennis, watching NFL games, biking, and working out in his free time. ", 
+   "left": null
+  }
+ }, 
+ {
+  "pk": 14, 
+  "model": "core.execmember", 
+  "fields": {
+   "website": "http://kanjun.mit.edu/", 
+   "major": 10, 
+   "image": "core/execmember/kanjun_2012-03-15-04-28-37.gif", 
+   "joined": "2008-10-15 03:31:10", 
+   "phone": "", 
+   "graduation_year": 1, 
+   "blurb": "Kanjun is a senior working on her Master's in Computer Science at the <a href=http://hlt.media.mit.edu/>MIT Media Lab</a>.  When procrastinating on work, she bakes artisan bread, sight-reads piano music, experiments with food, spins sheep wool into yarn, and peruses science fiction and fantasy novels.  More regularly, she trains actively in competitive ballroom dance, and enjoys frequent philosophical discussions with friends.\r\n<br><br>\r\nKanjun was president and then co-president of Traders@MIT from 2009 to 2011. ", 
+   "left": null
+  }
+ }, 
+ {
+  "pk": 7, 
+  "model": "core.execmember", 
+  "fields": {
+   "website": "http://web.mit.edu/ohuang/www", 
+   "major": 19, 
+   "image": "core/execmember/ohuang_2012-03-11-20-28-15.jpg", 
+   "joined": "2010-10-01 00:00:00", 
+   "phone": "404-281-2771", 
+   "graduation_year": 3, 
+   "blurb": "Oliver Huang is a sophomore double majoring in Economics and Mathematics. He spends his free time playing basketball, mixing music, and exploring Boston.", 
+   "left": null
+  }
+ }, 
+ {
+  "pk": 13, 
+  "model": "core.execmember", 
+  "fields": {
+   "website": "", 
+   "major": 37, 
+   "image": "core/execmember/thilk_2012-03-13-06-39-19.jpg", 
+   "joined": "2010-02-16 22:41:47", 
+   "phone": "", 
+   "graduation_year": 2, 
+   "blurb": "Ted is co-president of Traders@MIT with Thiago Vieira. Outside of trading, Ted is interested in software architecture, machine learning, and complex systems in general. His non-trading-related research involves the intersection of cortical modeling and artificial intelligence. Ted is also interested in philosophy, speculative fiction, economics, medical research, and architecture and design.  He enjoys traveling, alpine skiing, and interesting conversations.", 
+   "left": null
+  }
+ }, 
+ {
+  "pk": 12, 
+  "model": "core.execmember", 
+  "fields": {
+   "website": "", 
+   "major": 9, 
+   "image": "core/execmember/tvieira_2012-03-13-04-30-44.gif", 
+   "joined": "2012-03-13 04:19:02", 
+   "phone": "", 
+   "graduation_year": 2, 
+   "blurb": "Thiago is currently the Co-President of Traders@MIT with Ted Hilk.  At MIT, he enjoys studying computer science and physics late into the night.  When he has extra time he enjoys watching the Shark Tank, playing basketball and going out into Boston to eat.  ", 
+   "left": null
+  }
+ }, 
+ {
+  "pk": 5, 
+  "model": "core.execmember", 
+  "fields": {
+   "website": "http://mit.edu/vok/www/", 
+   "major": 37, 
+   "image": "core/execmember/vok_2012-03-11-21-14-54.JPG", 
+   "joined": "2012-03-11 15:35:13", 
+   "phone": "", 
+   "graduation_year": 3, 
+   "blurb": "Vlad is a sophomore pursuing a double major in Computer Science and Engineering and Mathematics. When trading and problem sets lose his attention, he enjoys cycling, long walks on the beach, and acoustic guitar.", 
+   "left": null
+  }
+ }, 
+ {
+  "pk": 2, 
+  "model": "core.execmember", 
+  "fields": {
+   "website": "", 
+   "major": null, 
+   "image": "", 
+   "joined": "2012-03-03 23:47:05", 
+   "phone": null, 
+   "graduation_year": null, 
+   "blurb": null, 
    "left": null
   }
  }

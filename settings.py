@@ -127,6 +127,7 @@ CKEDITOR_CONFIGS = {
               '-', 'Bold', 'Italic', 'Underline',
               '-', 'Link', 'Unlink',
               '-', 'Maximize',
+              '-', 'Format',
             ],
             [      'HorizontalRule',
               '-', 'BulletedList', 'NumberedList',

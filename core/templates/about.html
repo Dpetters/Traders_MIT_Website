@@ -18,23 +18,24 @@ About Us |
 {% endblock %}
 
 {% block content %}
-    <h3>Exec Team</h3>
+    <h3>Executive Team</h3>
     <ul class="exec">
         {% for exec_member in current_exec_members %}
         <li>
-            {% if exec_member.image %}
-                <img class="thumbnail" src="{{ MEDIA_URL }}{{exec_member.image}}" />
-            {% endif %}
-            <h2>{{exec_member.user.first_name}} {{exec_member.user.last_name}}</h2>
-            <p class="year_major">{{exec_member.graduation_year}} - {{exec_member.major}}</p>
-            {% if exec_member.website %}
-                <a class="website" href="{{exec_member.website}}">{{exec_member.website}}</a>
-            {% endif %}
-            {% if exec_member.phone %}
-                <p class="phone">{{exec_member.phone}} </p>
-            {% endif %}
-            <p class="blurb">{{exec_member.blurb|safe}}</p>
+            {% include "exec_member.html" %}
         </li>
         {% endfor %}
     </ul>
+    
+    {% if past_exec_members %}
+        <br> 
+        <h3>Alumni</h3>
+        <ul class="exec">
+            {% for exec_member in past_exec_members %}
+            <li>
+                {% include "exec_member.html" %}
+            </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
 {% endblock %}

@@ -46,7 +46,7 @@ class ExecMember(BoardMember):
     major = models.ForeignKey(Course, related_name = "first_major", null=True)
     website = models.URLField(verify_exists=False, blank = True, null=True)
     image = models.ImageField(upload_to=get_image_filename, blank=True, null=True)
-    phone = PhoneNumberField("Main Contact Phone #", blank = True, null=True)
+    co_president = models.BooleanField(default=False)
     blurb = models.TextField(blank=True, null=True)
     
     joined = models.DateTimeField(default=datetime.datetime.now())

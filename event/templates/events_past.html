@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block title %}
-Events | 
+Past Events | 
 {% endblock %}
 
 {% block meta %}
@@ -14,14 +14,10 @@ Events |
 {% endblock %}
 
 {% block page_header %}
-    <h2>Upcoming Events</h2>
+    <h2>Past Events</h2>
 {% endblock %}
 
 {% block content %}
-    {% for event in upcoming_events %}
-    	{% include "event.html" %}
-    {% endfor %}
-    <h2>Past Events</h2>
     {% for event in past_events %}
         {% include "event.html" %}
     {% endfor %}

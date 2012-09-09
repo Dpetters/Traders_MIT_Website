@@ -22,7 +22,8 @@ urlpatterns += patterns('core.views',
 )
 
 urlpatterns += patterns('event.views',
-    (r'^events/$', 'events', {}, 'events'),   
+    (r'^events/$', 'events_upcoming', {}, 'events_upcoming'),
+    (r'^events/past/$', 'events_past', {}, 'events_past')   
 )
 
 urlpatterns += staticfiles_urlpatterns()

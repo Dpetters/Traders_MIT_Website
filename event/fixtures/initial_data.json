@@ -26,5 +26,215 @@
    "date_created": "2012-09-09 10:05:17", 
    "end_datetime": "2012-09-27 21:00:00"
   }
+ }, 
+ {
+  "pk": 3, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2011-09-30 18:30:00", 
+   "attending_employers": "Jefferies & Co.", 
+   "name": "Introduction to Event Driven Trading and Merger Arbitrage", 
+   "rsvp_url": "http://umeqo.com/events/31/jefferies-co-introduction-to-event-driven-trading/", 
+   "description": "<p>\r\n\tJoin Jefferies&rsquo; Event Driven Strategist, Ted Chen (MIT Sloan &rsquo;06), for a discussion on event-driven investing and merger arbitrage. Learn about how event-driven investing exploits mispricings between stocks, and see whether it might be for you. The discussion will be followed by a networking session with several representatives from the Equities Trading division. Jefferies is currently accepting resumes for the 2012 Summer Internship program &ndash; feel free to bring a copy to the event.</p>\r\n", 
+   "location": "3-133", 
+   "date_created": "2012-09-09 11:26:33", 
+   "end_datetime": "2011-09-30 20:00:00"
+  }
+ }, 
+ {
+  "pk": 4, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2012-09-06 18:30:00", 
+   "attending_employers": "Optiver", 
+   "name": "Financial Transaction Tax", 
+   "rsvp_url": "", 
+   "description": "<p>\r\n\tJoin us to learn more about the financial transaction tax with Optiver, a worldwide market maker and derivatives trading firm. The presentation will also focus on Optiver&#39;s training program, and will be followed by a trader testing session for students interested in interviewing with Optiver.</p>\r\n", 
+   "location": "4-145", 
+   "date_created": "2012-09-09 11:27:06", 
+   "end_datetime": "2012-09-06 20:00:00"
+  }
+ }, 
+ {
+  "pk": 5, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2011-09-29 18:30:00", 
+   "attending_employers": "Eladian Partners", 
+   "name": "Working at a Trading Startup", 
+   "rsvp_url": "http://umeqo.com/events/30/eladian-partners-working-at-trading-startup/", 
+   "description": "<p>\r\n\tEladian Partners is an extremely successful high-frequency trading startup that has just started recruiting at MIT. Trading startups offer unparalleled opportunities for new hires, and allow for enormous flexibility in terms of work habits and projects. Get the inside scoop on how trading startups work, and what the high frequency trading industry has to offer new startups.</p>\r\n", 
+   "location": "4-163", 
+   "date_created": "2012-09-09 11:28:33", 
+   "end_datetime": "2011-09-29 20:00:00"
+  }
+ }, 
+ {
+  "pk": 6, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2011-09-29 16:30:00", 
+   "attending_employers": "J.P. Morgan", 
+   "name": "Hit The Trading Floor Running: J.P Morgan Floor Trading Game", 
+   "rsvp_url": "http://tinyurl.com/c4beqtw", 
+   "description": "<p>\r\n\tEver wondered what the buzz of the trading floor is really like? Looking for a summer internship in trading at J.P. Morgan? Come play J.P. Morgan&rsquo;s paper trading game! Get a feel for thinking on your feet, calculating probabilities quickly, and immediately taking advantage of opportunities. We&rsquo;ll teach you the basics, and then it&rsquo;s over to you. The money may not be real, but the excitement certainly is. Be a part of it.</p>\r\n<p>\r\n\tThis event is targeted toward freshmen, sophomores and juniors interested in interning at J.P. Morgan. However, all students are welcome.</p>\r\n", 
+   "location": "56-154", 
+   "date_created": "2012-09-09 11:29:33", 
+   "end_datetime": "2011-09-29 18:30:00"
+  }
+ }, 
+ {
+  "pk": 7, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2011-10-17 18:00:00", 
+   "attending_employers": "World Wide Financial Recruiting Services, LLC", 
+   "name": "Getting Jobs in Algorithmic Trading", 
+   "rsvp_url": "", 
+   "description": "<p>\r\n\tJoin Traders@MIT and Brennan Hughes and Rob Khoury, founders of World Wide Financial Recruiting Services, LLC in a candid discussion about getting a job in algorithmic trading. Find out the most recent advancements in technology that affect algorithmic trading, and learn how to prepare for success in the industry. Brennan and Rob will talk about the skills you need and what companies look for.</p>\r\n<p>\r\n\tBrennan and Rob will also be hosting a free resume review from 1-5 PM on 10/17 in 4-251. Please choose a timeslot on this Doodle form: http://www.doodle.com/uas664mxsz8m2vm7. Then, please email Brennan Hughes (bhughes@wwfirs.com) with your resume.</p>\r\n<p>\r\n\tDinner will be provided.</p>\r\n<p>\r\n\tAll are welcome, from freshmen to seniors. No trading experience is necessary!</p>\r\n", 
+   "location": "4-159", 
+   "date_created": "2012-09-09 11:30:38", 
+   "end_datetime": "2011-10-17 19:30:00"
+  }
+ }, 
+ {
+  "pk": 8, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2011-10-11 18:00:00", 
+   "attending_employers": "Belvedere Trading", 
+   "name": "Options Greeks", 
+   "rsvp_url": "", 
+   "description": "<p>\r\n\tJoin Traders@MIT and Belvedere Trading, a Chicago-based proprietary trading firm, to learn about options Greeks, how to manage your positions andmake money.</p>\r\n<p>\r\n\tFounded in 2002, Belvedere Trading is a leading proprietary trading firm. They specialize in equity index, fixed income, and commodity derivatives. They trade electronically from their headquarters in downtown Chicago, and utilize their own proprietary technology, trading models/strategies, and risk management capabilities.</p>\r\n<p>\r\n\tRefreshments will be provided.</p>\r\n<p>\r\n\tNetworking with representatives and students to follow.</p>\r\n", 
+   "location": "24-121", 
+   "date_created": "2012-09-09 11:32:27", 
+   "end_datetime": "2011-10-11 19:00:00"
+  }
+ }, 
+ {
+  "pk": 9, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2011-09-27 19:00:00", 
+   "attending_employers": "Susquehanna International Group", 
+   "name": "Mock Trading Session", 
+   "rsvp_url": "http://umeqo.com/traders/sig", 
+   "description": "<p>\r\n\tSIG, a world-leading, technology-empowered financial trading firm, is coming to campus to run a mock trading session with Traders@MIT.&nbsp; All MIT students are welcome to attend.&nbsp; Representatives will include Pat McCauley, COO of Trading Businesses, and Jarrod Boland, 2008 MIT alum and options trader. The traders will open the session with a brief overview of how SIG uses game theory and decision science to allocate SIG&rsquo;s capital in today&rsquo;s options markets.&nbsp; Students will then have the opportunity to practice trading with each other in a simulated open outcry setting.</p>\r\n<p>\r\n\tDinner will be provided.</p>\r\n", 
+   "location": "5-217", 
+   "date_created": "2012-09-09 11:33:13", 
+   "end_datetime": "2011-09-27 21:00:00"
+  }
+ }, 
+ {
+  "pk": 10, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2011-09-26 19:00:00", 
+   "attending_employers": "Tower Research Capital", 
+   "name": "Tower Research Capital Tech Talk", 
+   "rsvp_url": "http://umeqo.com/traders/tower", 
+   "description": "<p>\r\n\tJoin us for discussion with a portfolio manager at Tower Research Capital, a leading proprietary trading firm in New York City.&nbsp; Trading groups at Tower conduct advanced quantitative modeling and develop high-performance software to implement their strategies, and the firm as a whole has invested in some of the fastest trading systems in the world.</p>\r\n<p>\r\n\tIf your idea of trading involves winning races, if you&rsquo;re interested in pushing the limits of efficiency in the world&rsquo;s most competitive markets, join us Monday evening to learn more.</p>\r\n", 
+   "location": "4-159", 
+   "date_created": "2012-09-09 11:34:06", 
+   "end_datetime": "2011-09-26 21:00:00"
+  }
+ }, 
+ {
+  "pk": 11, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2011-09-19 19:00:00", 
+   "attending_employers": "", 
+   "name": "Introduction to Trading", 
+   "rsvp_url": "", 
+   "description": "<p>\r\n\tCome join the current Traders@MIT Executive Board for a one-hour crash course about the financial markets. Learn about basic trading terminology, asset classes, market players, and trading strategies. Find out more about what the Traders@MIT board is all about.</p>\r\n<p>\r\n\tFreshmen and sophomores &ndash; if you are interested in joining the Traders@MIT executive board, we highly encourage you to attend!</p>\r\n", 
+   "location": "4-153", 
+   "date_created": "2012-09-09 11:34:46", 
+   "end_datetime": "2011-09-19 20:30:00"
+  }
+ }, 
+ {
+  "pk": 12, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2011-04-28 19:30:00", 
+   "attending_employers": "Weiss Asset Management", 
+   "name": "Interviews Beyond Brainteasers", 
+   "rsvp_url": "", 
+   "description": "<p>\r\n\tNow is one of the best times for students, especially freshman and sophomores, to identify and target top hedge fund internship opportunities. On Thursday, April 28, 2011, at 7:30 PM, traders and recruiting managers from Weiss Asset Management will speak about how you can be successful in the recruiting process and the opportunities available at their firm through a two-part speaker and presentation event.</p>\r\n", 
+   "location": "4-237", 
+   "date_created": "2012-09-09 11:35:36", 
+   "end_datetime": "2011-04-28 21:00:00"
+  }
+ }, 
+ {
+  "pk": 13, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2011-04-06 19:00:00", 
+   "attending_employers": "Allston Trading", 
+   "name": "Global Quant Trading", 
+   "rsvp_url": "", 
+   "description": "<p>\r\n\tDinner will be provided<br />\r\n\tDesserts and networking with representatives and students to follow.</p>\r\n<p>\r\n\tTwo MIT alums will discuss current events and emerging opportunities in quantitative trading, and will also provide a sneak peek at the upcoming Allston Trading Competition.</p>\r\n", 
+   "location": "2-142", 
+   "date_created": "2012-09-09 11:36:28", 
+   "end_datetime": "2011-04-06 21:00:00"
+  }
+ }, 
+ {
+  "pk": 14, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2010-09-20 18:30:00", 
+   "attending_employers": "", 
+   "name": "2010 Fall Trading Competition ", 
+   "rsvp_url": "", 
+   "description": "<p>\r\n\tJoin us for our fall intercollegiate trading competition!&nbsp; One of our largest events of the year, the competition encompasses five different 45-minute electronic and open-outcry trading events, as well as a pre-competition social mixer, complimentary meals, and sponsor events throughout the day.</p>\r\n<p>\r\n\tTeams of two students each (up to five teams per school) compete for recognition and prizes, including registration in the Rotman International Trading Competition in Toronto for the top two teams.&nbsp; Schools competing last year included MIT, Harvard, Princeton, Penn, Columbia, Dartmouth, NYU, and Wellesley.</p>\r\n<p>\r\n\tRepresentatives from our sponsors, including many prominent investment banks and proprietary trading firms, will be in attendance to discuss their companies and trading-related issues.&nbsp; Sponsors will also present their own, additional prizes to the top teams.</p>\r\n", 
+   "location": "32-144", 
+   "date_created": "2012-09-09 11:38:34", 
+   "end_datetime": "2010-09-20 09:30:00"
+  }
+ }, 
+ {
+  "pk": 15, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2010-09-19 21:30:00", 
+   "attending_employers": "", 
+   "name": "2010 Pre-Competition Social Mixer", 
+   "rsvp_url": "", 
+   "description": "<p>\r\n\tAppetizers and non-alcoholic beverages will be provided.</p>\r\n", 
+   "location": "Characters Bar and Grill", 
+   "date_created": "2012-09-09 11:39:32", 
+   "end_datetime": "2010-09-19 23:59:59"
+  }
+ }, 
+ {
+  "pk": 16, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2010-03-16 19:00:00", 
+   "attending_employers": "Susquehanna International Group", 
+   "name": "Decision Science & Poker", 
+   "rsvp_url": "", 
+   "description": "<p>\r\n\tFind out how Susquehanna International Group, LLP uses poker playing to model risk decisions that their traders make in the financial markets. The examples draw on cognitive biases, behavorial economics and game theory analyses. Learn about types of decisions and errors we all make every day, and how to take advantage of them in games such as poker. This is the last part in a great series about Decision Science &ndash; don&rsquo;t miss it! Prior attendance is not required.</p>\r\n", 
+   "location": "4-231", 
+   "date_created": "2012-09-09 11:40:54", 
+   "end_datetime": "2010-03-16 17:30:00"
+  }
+ }, 
+ {
+  "pk": 17, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2010-03-10 18:00:00", 
+   "attending_employers": "IMC Chicago", 
+   "name": "Exploring Algorithmic Trading Strategies", 
+   "rsvp_url": "", 
+   "description": "<p>\r\n\tJoin traders from IMC Chicago in a frank discussion about algorithmic trading strategies &ndash; learn about how traders research and discover automated trading strategies, and identify skills needed to be a successful algorithmic trader. After imparting some background in algorithmic trading, IMC traders will share an outdated algorithmic trading strategy to show participants how and why the strategy worked. This will be an invaluable one-time opportunity to get into the mind of an algorithmic trader &ndash; there will be a Q&amp;A session at the end.</p>\r\n<p>\r\n\tPlease feel free to bring your resume for internship and full-time opportunities in trading.</p>\r\n", 
+   "location": "4-149", 
+   "date_created": "2012-09-09 11:41:31", 
+   "end_datetime": "2010-03-10 19:30:00"
+  }
  }
 ]

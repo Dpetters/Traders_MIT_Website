@@ -446,8 +446,9 @@
    "website": "", 
    "major": 8, 
    "image": "core/execmember/aaki_2012-04-30-16-00-11.gif", 
-   "joined": "2012-03-09 21:30:06", 
    "graduation_year": 3, 
+   "joined": "2012-03-09 21:30:06", 
+   "co_president": false, 
    "blurb": "", 
    "left": null
   }
@@ -459,8 +460,9 @@
    "website": "", 
    "major": 38, 
    "image": "core/execmember/di_wu_2012-04-30-16-00-21.jpg", 
-   "joined": "2012-03-09 21:34:30", 
    "graduation_year": 1, 
+   "joined": "2012-03-09 21:34:30", 
+   "co_president": false, 
    "blurb": "Di enjoys learning about and experimenting with cooking, playing various video games, board games, and sports, and learning about whiskeys and wines. He also enjoys analyzing mundane problems using mathematics and economics in his spare time. For example, in the summer of 2010, he studied the game of Monopoly using Markov matrices to find optimal strategies to the game.\r\n<br><br>\r\nDi is a brother of <a href=http://pilam.mit.edu/>Pi Lambda Phi</a> fraternity and will be working at <a href=http://imc.nl/Financial-markets/Offices/Chicago/>IMC Financial Markets in Chicago</a>.\r\n<br><br>\r\nDi was co-president of Traders@MIT from 2010 to 2011.", 
    "left": null
   }
@@ -472,8 +474,9 @@
    "website": "http://www.dmitrijpetters.com/", 
    "major": 10, 
    "image": "core/execmember/dpetters_2012-03-11-15-38-00.gif", 
-   "joined": "2012-03-03 20:49:54", 
    "graduation_year": 2, 
+   "joined": "2012-03-03 20:49:54", 
+   "co_president": false, 
    "blurb": "", 
    "left": null
   }
@@ -485,8 +488,9 @@
    "website": "", 
    "major": 10, 
    "image": "core/execmember/hjoshi_2012-03-12-11-48-20.PNG", 
-   "joined": "2011-01-01 22:13:06", 
    "graduation_year": 2, 
+   "joined": "2011-01-01 22:13:06", 
+   "co_president": false, 
    "blurb": "Rish is a junior at MIT studying Computer Science & Mathematics. He enjoys playing tennis, watching NFL games, biking, and working out in his free time. ", 
    "left": null
   }
@@ -498,8 +502,9 @@
    "website": "http://kanjun.mit.edu/", 
    "major": 10, 
    "image": "core/execmember/kanjun_2012-03-15-04-28-37.gif", 
-   "joined": "2008-10-15 03:31:10", 
    "graduation_year": 1, 
+   "joined": "2008-10-15 03:31:10", 
+   "co_president": false, 
    "blurb": "Kanjun is a senior working on her Master's in Computer Science at the <a href=http://hlt.media.mit.edu/>MIT Media Lab</a>.  When procrastinating on work, she bakes artisan bread, sight-reads piano music, experiments with food, spins sheep wool into yarn, and peruses science fiction and fantasy novels.  More regularly, she trains actively in competitive ballroom dance, and enjoys frequent philosophical discussions with friends.\r\n<br><br>\r\nKanjun was president and then co-president of Traders@MIT from 2009 to 2011. ", 
    "left": null
   }
@@ -511,8 +516,9 @@
    "website": "http://web.mit.edu/ohuang/www", 
    "major": 19, 
    "image": "core/execmember/ohuang_2012-03-11-20-28-15.jpg", 
-   "joined": "2010-10-01 00:00:00", 
    "graduation_year": 3, 
+   "joined": "2010-10-01 00:00:00", 
+   "co_president": false, 
    "blurb": "Oliver Huang is a sophomore double majoring in Economics and Mathematics. He spends his free time playing basketball, mixing music, and exploring Boston.", 
    "left": null
   }
@@ -524,8 +530,9 @@
    "website": "", 
    "major": 37, 
    "image": "core/execmember/thilk_2012-03-13-06-39-19.jpg", 
-   "joined": "2010-02-16 22:41:47", 
    "graduation_year": 2, 
+   "joined": "2010-02-16 22:41:47", 
+   "co_president": false, 
    "blurb": "Ted is co-president of Traders@MIT with Thiago Vieira. Outside of trading, Ted is interested in software architecture, machine learning, and complex systems in general. His non-trading-related research involves the intersection of cortical modeling and artificial intelligence. Ted is also interested in philosophy, speculative fiction, economics, medical research, and architecture and design.  He enjoys traveling, alpine skiing, and interesting conversations.", 
    "left": null
   }
@@ -537,8 +544,9 @@
    "website": "", 
    "major": 9, 
    "image": "core/execmember/tvieira_2012-03-13-04-30-44.gif", 
-   "joined": "2012-03-13 04:19:02", 
    "graduation_year": 2, 
+   "joined": "2012-03-13 04:19:02", 
+   "co_president": false, 
    "blurb": "Thiago is currently the Co-President of Traders@MIT with Ted Hilk.  At MIT, he enjoys studying computer science and physics late into the night.  When he has extra time he enjoys watching the Shark Tank, playing basketball and going out into Boston to eat.  ", 
    "left": null
   }
@@ -550,8 +558,9 @@
    "website": "http://mit.edu/vok/www/", 
    "major": 37, 
    "image": "core/execmember/vok_2012-03-11-21-14-54.JPG", 
-   "joined": "2012-03-11 15:35:13", 
    "graduation_year": 3, 
+   "joined": "2012-03-11 15:35:13", 
+   "co_president": false, 
    "blurb": "Vlad is a sophomore pursuing a double major in Computer Science and Engineering and Mathematics. When trading and problem sets lose his attention, he enjoys cycling, long walks on the beach, and acoustic guitar.", 
    "left": null
   }
@@ -563,8 +572,9 @@
    "website": "http://youyanggu.com/", 
    "major": 9, 
    "image": "core/execmember/yygu_2012-04-30-16-02-49.png", 
-   "joined": "2012-03-03 23:47:05", 
    "graduation_year": 4, 
+   "joined": "2012-03-03 23:47:05", 
+   "co_president": false, 
    "blurb": "Youyang is a rising sophomore studying EECS and Mathematics. This will be his second year on Traders. He grew up in Illinois and is an avid Bears and Bulls fan. In his spare time, Youyang likes to explore Boston, play basketball, and collect Starbucks gift cards.", 
    "left": null
   }

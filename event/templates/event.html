@@ -1,6 +1,6 @@
 <div class="event_main_info_right right_side_container">
     <h3>Location: {{event.location}}</h3>
-    {% include 'event_rsvp.html' %}
+    {% if not event.is_past %}{% include 'event_rsvp.html' %}{% endif %}
 </div>
 <div class="event_main_info_left">
     <h1>{{event.name}}</h1>
@@ -12,10 +12,8 @@
             <em>{{event.start_datetime|date:"h:i A"}}</em> - <strong>{{event.end_datetime|date:"D, F j"}}</strong>, {{event.end_datetime|date:"Y"}} <em>{{event.end_datetime|date:"h:i A"}}</em>
         {% endif %}
     </h3>
+    {% if event.attending_employers %}
+        <p><b>Attending Firms:</b> {{event.attending_employers}}</p>
+    {% endif %}
 </div>
-<!-- 
-{% if event.attending_employers %}
-<p><b>Attending Employers:</b> {{event.attending_employers|safe}}</p>
-{% endif %}
--->
 <p>{{event.description|safe}}</p>

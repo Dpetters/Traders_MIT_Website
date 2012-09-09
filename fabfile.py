@@ -20,8 +20,8 @@ def load_data():
     local("python manage.py loaddata ./initial_data.json")
                 
 def commit_data():
-    try:
-        from settings_prod import *
+    prod_settings_file_path = "./settings_prod.py"    
+    if os.path.exists(prod_settings_file_path):
         local("python manage.py dumpdata flatpages sites auth.group auth.user --indent=1 > ./initial_data.json")
         for app in DATA_MODELS:
             model_labels = []
@@ -32,5 +32,5 @@ def commit_data():
                 model_labels.append("%s.%s" % (app, model))
             local("python manage.py dumpdata %s --indent=1 > %s/initial_data.json" % (" ".join(model_labels), fixtures_dir))
         local("python copy_media.py out")
-    except ImportError:
+    else:
         abort("You can only commit data on production. Login to the traders locker using an athena computer and commit from there.")

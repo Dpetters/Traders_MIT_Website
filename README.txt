@@ -55,4 +55,4 @@ TYPICAL WORKFLOW
 6. Run "fab update" locally to update staging.
 
 DATAFLOW
-In order to have your local version of the site look exactly like the one that's live, I added scripts to the fabfile to allow you to commit all site data/media or load all the site data/media. You can only commit all site data/media on the production version of the site. Locally, you can load the data/media using the "fab load_data" command. For more about fab, check out fabfile.org
+In order to have your local version of the site look exactly like the one that's live, I added scripts to the fabfile to allow you to commit all site data/media or load all the site data/media. You can only commit all site data/media on the production version of the site. Locally, you can load the data/media using the "fab load_data" command. For more about fab, check out fabfile.org. If you add new models to the site whose data you want committed, add them to DATA_MODELS in the fabfile.py.

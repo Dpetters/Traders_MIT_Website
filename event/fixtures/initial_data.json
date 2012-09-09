@@ -12,5 +12,19 @@
    "date_created": "2012-04-29 22:16:54", 
    "end_datetime": "2012-05-05 17:00:00"
   }
+ }, 
+ {
+  "pk": 2, 
+  "model": "event.event", 
+  "fields": {
+   "start_datetime": "2012-09-27 19:00:00", 
+   "attending_employers": "Susquehanna International Group", 
+   "name": "Using Poker and Game Theory to Trade in the Derivative Markets", 
+   "rsvp_url": "https://www.umeqo.com/events/37/using-poker-and-game-theory-to-trade-in-derivative/?rsvp=true", 
+   "description": "<p>\r\n\tJeff Yass, Founder and CEO of SIG (Susquehanna International Group), will explain how the firm was founded on the principles of game theory&mdash;particularly the decision strategies used in poker. He will discuss how poker and other strategy games are still used to train traders and technologists to make decisions in today&rsquo;s fast-paced and competitive financial markets.<br />\r\n\tAdditional information will be available regarding full-time and internship opportunities in trading and technology.</p>\r\n<p>\r\n\t<strong>Food and beverages will be provided.</strong></p>\r\n", 
+   "location": "4-231", 
+   "date_created": "2012-09-09 10:05:17", 
+   "end_datetime": "2012-09-27 21:00:00"
+  }
  }
 ]

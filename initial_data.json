@@ -122,10 +122,10 @@
    "is_active": true, 
    "is_superuser": true, 
    "is_staff": true, 
-   "last_login": "2012-04-30 15:50:13", 
+   "last_login": "2012-09-09 10:00:24", 
    "groups": [], 
    "user_permissions": [], 
-   "password": "sha1$76d0b$fe1835faaab7648298e89c35fcd4bfb3fd24342b", 
+   "password": "pbkdf2_sha256$10000$ezVyR4t3n9qo$QOBucuCLjEXP714pdy+Nr9XqRgrcqcg+cW3rlxnbc/8=", 
    "email": "dpetters@mit.edu", 
    "date_joined": "2012-03-03 20:48:35"
   }

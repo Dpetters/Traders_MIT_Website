@@ -10,5 +10,5 @@ def events_upcoming(request, extra_context=None):
 
 @render_to("events_past.html")
 def events_past(request, extra_context=None):
-    context = {'past_events' : filter(lambda x: x.is_past(), Event.objects.all())}
+    context = {'past_events' : filter(lambda x: x.is_past(), Event.objects.all().order_by("-end_datetime"))}
     return context

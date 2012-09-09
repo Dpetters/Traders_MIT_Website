@@ -458,12 +458,12 @@
   "model": "core.execmember", 
   "fields": {
    "website": "", 
-   "major": 20, 
+   "major": 38, 
    "image": "core/execmember/di_wu_2012-04-30-16-00-21.jpg", 
    "joined": "2012-03-09 21:34:30", 
    "phone": "", 
    "graduation_year": 1, 
-   "blurb": "", 
+   "blurb": "Di enjoys learning about and experimenting with cooking, playing various video games, board games, and sports, and learning about whiskeys and wines. He also enjoys analyzing mundane problems using mathematics and economics in his spare time. For example, in the summer of 2010, he studied the game of Monopoly using Markov matrices to find optimal strategies to the game.\r\n<br><br>\r\nDi is a brother of <a href=http://pilam.mit.edu/>Pi Lambda Phi</a> fraternity and will be working at <a href=http://imc.nl/Financial-markets/Offices/Chicago/>IMC Financial Markets in Chicago</a>.\r\n<br><br>\r\nDi was co-president of Traders@MIT from 2010 to 2011.", 
    "left": null
   }
  }, 
@@ -569,13 +569,13 @@
   "pk": 2, 
   "model": "core.execmember", 
   "fields": {
-   "website": "", 
-   "major": 10, 
+   "website": "http://youyanggu.com/", 
+   "major": 9, 
    "image": "core/execmember/yygu_2012-04-30-16-02-49.png", 
    "joined": "2012-03-03 23:47:05", 
    "phone": "", 
    "graduation_year": 4, 
-   "blurb": "", 
+   "blurb": "Youyang is a rising sophomore studying EECS and Mathematics. This will be his second year on Traders. He grew up in Illinois and is an avid Bears and Bulls fan. In his spare time, Youyang likes to explore Boston, play basketball, and collect Starbucks gift cards.", 
    "left": null
   }
  }

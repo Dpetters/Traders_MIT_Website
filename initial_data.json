@@ -85,7 +85,7 @@
    "sites": [
     1
    ], 
-   "content": "<h1>Student Resources</h1>\r\n<p>Coming soon!</p>", 
+   "content": "<h1>Student Resources</h1>\r\n\r\n<h3>Recommended Reading</h3>\r\n<br>\r\n<p><strong>Textbooks</strong></p>\r\n<ul>\r\n<li>Alexander, Market Models</li>\r\n<li>Harris, Trading and Exchanges</li>\r\n<li>Hull, Options, Futures, and Other Derivatives</li>\r\n<li>Klebaner, Introduction to Stochastic Calculus with Applications</li>\r\n<li>Thaler, Advances in Behavioral Finance</li>\r\n<li>Tsay, Analysis of Financial Time Series</li>\r\n</ul>\r\n\r\n<p><strong>Interviews</strong></p>\r\n<ul>\r\n<li>Crack, Heard on the Street</li>\r\n</ul>\r\n\r\n<p><strong>Outlooks</strong></p>\r\n<ul>\r\n<li>Ariely, Predictably Irrational; The Upside of Irrationality</li>\r\n<li>Douglas, The Disciplined Trader</li>\r\n<li>Schwager, Market Wizards; The New Market Wizards</li>\r\n<li>Toppel, Zen in the Markets</li>\r\n</ul>\r\n\r\n<p><strong>History</strong></p>\r\n<ul>\r\n<li>Fox, The Myth of the Rational Market</li>\r\n<li>Reinhart, This Time is Different</li>\r\n</ul>\r\n\r\n<p><strong>Narrative</strong></p>\r\n<ul>\r\n<li>Bass, The Predictors</li>\r\n<li>Lefevre, Reminiscences of a Stock Operator</li>\r\n<li>Lewis, Liar\u2019s Poker</li>\r\n<li>Poundstone, Fortune\u2019s Formula</li>\r\n</ul>", 
    "enable_comments": false
   }
  }, 
@@ -138,9 +138,9 @@
    "first_name": "Youyang", 
    "last_name": "Gu", 
    "is_active": true, 
-   "is_superuser": false, 
+   "is_superuser": true, 
    "is_staff": true, 
-   "last_login": "2012-03-03 23:34:16", 
+   "last_login": "2012-05-07 00:18:59", 
    "groups": [], 
    "user_permissions": [], 
    "password": "sha1$dc81d$f6aadd38da3de14f9b43eb7af35d75f2d7b8044c", 
@@ -156,7 +156,7 @@
    "first_name": "Aakanksha", 
    "last_name": "Sarda", 
    "is_active": true, 
-   "is_superuser": false, 
+   "is_superuser": true, 
    "is_staff": true, 
    "last_login": "2012-03-09 21:11:31", 
    "groups": [], 
@@ -174,12 +174,12 @@
    "first_name": "Di", 
    "last_name": "Wu", 
    "is_active": true, 
-   "is_superuser": false, 
+   "is_superuser": true, 
    "is_staff": true, 
-   "last_login": "2012-03-09 21:35:15", 
+   "last_login": "2012-07-24 12:57:07", 
    "groups": [], 
    "user_permissions": [], 
-   "password": "sha1$49a38$c8a5f67d79267bf4f43c0dd8e8e9f7bc0b906d52", 
+   "password": "pbkdf2_sha256$10000$7ckX451OBIF2$d5/9+02jlHQEqxwUi6LdgQPDrUhHYcVrkXYlJ4rdYKI=", 
    "email": "di_wu@mit.edu", 
    "date_joined": "2012-03-09 21:35:15"
   }
@@ -192,7 +192,7 @@
    "first_name": "Hrishikesh", 
    "last_name": "Joshi", 
    "is_active": true, 
-   "is_superuser": false, 
+   "is_superuser": true, 
    "is_staff": true, 
    "last_login": "2012-03-10 00:57:08", 
    "groups": [], 
@@ -210,9 +210,9 @@
    "first_name": "Kanjun", 
    "last_name": "Qiu", 
    "is_active": true, 
-   "is_superuser": false, 
+   "is_superuser": true, 
    "is_staff": true, 
-   "last_login": "2012-03-10 00:57:45", 
+   "last_login": "2012-04-30 18:52:59", 
    "groups": [], 
    "user_permissions": [], 
    "password": "sha1$49a35$6fcb5b7427bfc2c7a04b6343546653ffb917ca33", 
@@ -228,7 +228,7 @@
    "first_name": "Oliver", 
    "last_name": "Huang", 
    "is_active": true, 
-   "is_superuser": false, 
+   "is_superuser": true, 
    "is_staff": true, 
    "last_login": "2012-03-10 00:58:15", 
    "groups": [], 
@@ -246,12 +246,12 @@
    "first_name": "Ted", 
    "last_name": "Hilk", 
    "is_active": true, 
-   "is_superuser": false, 
+   "is_superuser": true, 
    "is_staff": true, 
-   "last_login": "2012-03-10 00:58:44", 
+   "last_login": "2012-05-04 21:25:04", 
    "groups": [], 
    "user_permissions": [], 
-   "password": "sha1$aae74$a64d3735cfe3e1f5fb9923644a161dbe5728b156", 
+   "password": "sha1$5c110$c431bd41868a39bebc01b940adddab62f93f827c", 
    "email": "thilk@mit.edu", 
    "date_joined": "2012-03-10 00:58:44"
   }
@@ -264,7 +264,7 @@
    "first_name": "Thiago", 
    "last_name": "Vieira", 
    "is_active": true, 
-   "is_superuser": false, 
+   "is_superuser": true, 
    "is_staff": true, 
    "last_login": "2012-03-10 00:59:08", 
    "groups": [], 
@@ -282,7 +282,7 @@
    "first_name": "Vlad", 
    "last_name": "Kontsevoi", 
    "is_active": true, 
-   "is_superuser": false, 
+   "is_superuser": true, 
    "is_staff": true, 
    "last_login": "2012-03-10 00:59:36", 
    "groups": [], 
@@ -290,42 +290,6 @@
    "password": "sha1$93477$98fd8865ae79a45f09d5e8cd6e6ce6162e743459", 
    "email": "vok@mit.edu", 
    "date_joined": "2012-03-10 00:59:36"
-  }
- }, 
- {
-  "pk": 11, 
-  "model": "auth.user", 
-  "fields": {
-   "username": "hj", 
-   "first_name": "", 
-   "last_name": "", 
-   "is_active": true, 
-   "is_superuser": false, 
-   "is_staff": false, 
-   "last_login": "2012-03-11 22:12:53", 
-   "groups": [], 
-   "user_permissions": [], 
-   "password": "sha1$394d3$71b04dc22bcf5697d3c05731c9ff6962b13f1126", 
-   "email": "", 
-   "date_joined": "2012-03-11 22:12:53"
-  }
- }, 
- {
-  "pk": 12, 
-  "model": "auth.user", 
-  "fields": {
-   "username": "hj2", 
-   "first_name": "", 
-   "last_name": "", 
-   "is_active": true, 
-   "is_superuser": false, 
-   "is_staff": false, 
-   "last_login": "2012-03-11 22:13:32", 
-   "groups": [], 
-   "user_permissions": [], 
-   "password": "sha1$4a009$dd9d415a9bcdb5da1847210fa4f4f61dd9590ffb", 
-   "email": "", 
-   "date_joined": "2012-03-11 22:13:32"
   }
  }
 ]

@@ -18,7 +18,8 @@ urlpatterns = patterns('',
 
 urlpatterns += patterns('core.views',
    (r'^$', 'home', {}, 'home'),
-   (r'^about/$', 'about', {}, 'about')
+   (r'^about/$', 'about', {}, 'about'),
+   (r'^photos/$', 'photos', {}, 'photos')
 )
 
 urlpatterns += patterns('event.views',

@@ -1,6 +1,9 @@
 from core.decorators import render_to
 from core.models import ExecMember
 
+from event.models import Event
+
+
 @render_to("about.html")
 def about(request, extra_context=None):
     context = {}
@@ -12,4 +15,9 @@ def about(request, extra_context=None):
 @render_to("home.html")
 def home(request, extra_context=None):
     context = {}
+    return context
+
+@render_to("photos.html")
+def photos(request, extra_context=None):
+    context = {'events_with_photos':Event.objects.filter(slideshow__isnull=False)}
     return context

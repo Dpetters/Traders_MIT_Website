@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Photos | 
+{% endblock %}
+
+{% block page_header %}
+    <h2>Photos</h2>
+{% endblock %}
+
+{% block content %}
+    {% for event in events_with_photos %}
+    	{% include "event_with_photos.html" %}
+        <br>
+    {% endfor %}
+{% endblock %}

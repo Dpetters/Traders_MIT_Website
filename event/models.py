@@ -16,6 +16,8 @@ class Event(core_mixins.DateCreatedTracking):
     description = models.TextField()
 
     rsvp_url = models.URLField(blank=True, null=True)
+    
+    slideshow = models.TextField(blank=True, null=True)
 
     def __unicode__(self):
         return self.name

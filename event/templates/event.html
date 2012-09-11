@@ -15,5 +15,6 @@
     {% if event.attending_employers %}
         <p><b>Attending Firms:</b> {{event.attending_employers}}</p>
     {% endif %}
+    {{event.slideshow|safe}}
 </div>
 <p>{{event.description|safe}}</p>

@@ -1,0 +1,14 @@
+<div>
+    <h1>{{event.name}}</h1>
+    <h3 class="datetime">
+        <strong>{{event.start_datetime|date:"D F j"}}</strong>, {{event.start_datetime|date:"Y"}}
+        {% if event.start_datetime.day == event.end_datetime.day and event.start_datetime.month == event.end_datetime.month and event.start_datetime.year == event.end_datetime.year  %}
+        {% else %}
+            - <strong>{{event.end_datetime|date:"D, F j"}}</strong>, {{event.end_datetime|date:"Y"}}
+        {% endif %}
+    </h3>
+    {% if event.attending_employers %}
+        <p><b>Attending Firms:</b> {{event.attending_employers}}</p>
+    {% endif %}
+    {{event.slideshow|safe}}
+</div>

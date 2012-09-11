@@ -19,5 +19,5 @@ def home(request, extra_context=None):
 
 @render_to("photos.html")
 def photos(request, extra_context=None):
-    context = {'events_with_photos':Event.objects.filter(slideshow__isnull=False).exclude(slideshow=u'')}
+    context = {'events_with_photos':Event.objects.filter(slideshow__isnull=False).exclude(slideshow=u'').order_by("-end_datetime")}
     return context

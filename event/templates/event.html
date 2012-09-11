@@ -1,5 +1,5 @@
 <div class="event_main_info_right right_side_container">
-    <h3>Location: {{event.location}}</h3>
+    {% if event.location %}<h3>Location: {{event.location}}</h3>{% endif %}
     {% if not event.is_past %}{% include 'event_rsvp.html' %}{% endif %}
 </div>
 <div class="event_main_info_left">
@@ -15,6 +15,6 @@
     {% if event.attending_employers %}
         <p><b>Attending Firms:</b> {{event.attending_employers}}</p>
     {% endif %}
-    {{event.slideshow|safe}}
+    {% if event.slideshow %}{{event.slideshow|safe}}{% endif %}
 </div>
 <p>{{event.description|safe}}</p>

@@ -499,13 +499,13 @@
   "pk": 14, 
   "model": "core.execmember", 
   "fields": {
-   "website": "http://kanjun.mit.edu/", 
+   "website": "", 
    "major": 10, 
    "image": "core/execmember/kanjun_2012-03-15-04-28-37.gif", 
    "graduation_year": 1, 
    "joined": "2008-10-15 03:31:10", 
    "co_president": true, 
-   "blurb": "Kanjun is a senior working on her Master's in Computer Science at the <a href=http://hlt.media.mit.edu/>MIT Media Lab</a>.  When procrastinating on work, she bakes artisan bread, sight-reads piano music, experiments with food, spins sheep wool into yarn, and peruses science fiction and fantasy novels.  More regularly, she trains actively in competitive ballroom dance, and enjoys frequent philosophical discussions with friends.", 
+   "blurb": "Kanjun is a senior working on her Master's in Computer Science at the <a href=http://hlt.media.mit.edu/>MIT Media Lab</a>, and she enjoys playing with statistics and machine learning. When procrastinating on work, she bakes artisan bread, sight-reads piano music, experiments with food, spins sheep wool into yarn, and peruses science fiction and fantasy novels.  More regularly, she trains actively in competitive ballroom dance, and enjoys frequent philosophical discussions with friends.", 
    "left": "2012-05-31 12:15:26"
   }
  }, 
@@ -547,7 +547,7 @@
    "graduation_year": 2, 
    "joined": "2012-03-13 04:19:02", 
    "co_president": true, 
-   "blurb": "Thiago enjoys studying computer science and physics late into the night.  When he has extra time he enjoys watching the Shark Tank, playing basketball and going out into Boston to eat.  ", 
+   "blurb": "Thiago likes to study Computer Science and Physics at MIT while reading economics journals from time to time.  He enjoys taking vacations to Sao Paulo, Brazil to visit relatives and relax on the beach while attempting to surf.  He is a brother of <a href=\"http://pbe.mit.edu/\">Phi Beta Epsilon</a>.", 
    "left": null
   }
  }, 
@@ -557,11 +557,11 @@
   "fields": {
    "website": "http://mit.edu/vok/www/", 
    "major": 37, 
-   "image": "core/execmember/vok_2012-03-11-21-14-54.JPG", 
+   "image": "core/execmember/vok_2012-09-09-14-27-52.jpg", 
    "graduation_year": 3, 
    "joined": "2012-03-11 15:35:13", 
    "co_president": false, 
-   "blurb": "Vlad is a sophomore pursuing a double major in Computer Science and Engineering and Mathematics. When trading and problem sets lose his attention, he enjoys cycling, long walks on the beach, and acoustic guitar.", 
+   "blurb": "Vlad is a junior pursuing a double major in Computer Science and Engineering and Mathematics. When trading and problem sets lose his attention, he enjoys cycling, long walks on the beach, and acoustic guitar.", 
    "left": null
   }
  }, 

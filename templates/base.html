@@ -81,12 +81,9 @@
                    {% endblock %}
                </div>
                <div id="content">
-                   {% if flatpage %}
-                       {{flatpage.content}}
-                   {% else %}
-                       {% block content %}
-                       {% endblock %}
-                   {% endif %}
+                    {{flatpage.content}}
+                    {% block content %}
+                    {% endblock %}
                 </div>
         	</div>
         </div>

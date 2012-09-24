@@ -122,22 +122,12 @@ INSTALLED_APPS = (
 
 CKEDITOR_CONFIGS = {
     'default': {
-        'toolbar': [
-            [      'Undo', 'Redo',
-              '-', 'Bold', 'Italic', 'Underline',
-              '-', 'Link', 'Unlink',
-              '-', 'Maximize',
-              '-', 'Format',
-            ],
-            [      'HorizontalRule',
-              '-', 'BulletedList', 'NumberedList',
-            ]
-        ],
-        'width': 586,
+        'toolbar': "Full",
+        'width': 900,
         'resize_maxWidth' : 586,
         'resize_minWidth' : 586,
         'resize_minHeight' : 300,
-        'height': 210,
+        'height': 400,
         'skin':'kama',
         'toolbarCanCollapse': False,
         'forcepasteasplaintext': True,

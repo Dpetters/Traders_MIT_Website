@@ -2,7 +2,7 @@ from django.conf import settings
 from django.conf.urls.defaults import patterns, include
 from django.contrib import admin as django_admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-from django.views.generic.simple import direct_to_template
+from django.views.generic.simple import direct_to_template, redirect_to
 
 django_admin.autodiscover()
 
@@ -12,6 +12,7 @@ urlpatterns = patterns('',
     (r'^robots\.txt$', direct_to_template, {'template':'robots.txt', 'mimetype':'text/plain'}),
     (r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.MEDIA_ROOT}),
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
+    (r'^students/competion/fall/$', redirect_to, {'url':'/students/competition/fall/'}),
     (r'^admin/', include(django_admin.site.urls)),
     (r'^ckeditor/', include('ckeditor.urls')),
 )

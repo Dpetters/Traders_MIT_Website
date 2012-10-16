@@ -12,7 +12,7 @@ urlpatterns = patterns('',
     (r'^robots\.txt$', direct_to_template, {'template':'robots.txt', 'mimetype':'text/plain'}),
     (r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.MEDIA_ROOT}),
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
-    (r'^student/competion/fall/$', redirect_to, {'url':'/students/competition/fall/'}),
+    (r'^student/competion/fall/$', redirect_to, {'url':'/student/competition/fall/'}),
     (r'^admin/', include(django_admin.site.urls)),
     (r'^ckeditor/', include('ckeditor.urls')),
 )

@@ -62,7 +62,7 @@ def applicant_poll(request, extra_context=None):
                             applicant.positives = ""
 		        positive1 = form.cleaned_data.get("positive1")
 		        if positive1: 
-	                    applicant.positives = "; %s" % positive1
+	                    applicant.positives += "; %s" % positive1
                         positive2 = form.cleaned_data.get("positive2")
                         if positive2: 
                             applicant.positives += "; %s" % positive2

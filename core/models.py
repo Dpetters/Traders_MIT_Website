@@ -44,7 +44,7 @@ class BoardMember(models.Model):
         
 class ExecMember(BoardMember):
     graduation_year = models.ForeignKey(GraduationYear, null=True)
-    major = models.ForeignKey(Course, related_name = "first_major", null=True)
+    major = models.ManyToManyField(Course, related_name = "first_major", null=True)
     website = models.URLField(verify_exists=False, blank = True, null=True)
     image = models.ImageField(upload_to=get_image_filename, blank=True, null=True)
     co_president = models.BooleanField(default=False)
@@ -75,7 +75,7 @@ class Applicant(models.Model):
     last_name = models.CharField('Last Name', max_length=30)
     email = models.EmailField('E-mail Address')   
     graduation_year = models.ForeignKey(GraduationYear, null=True)
-    major = models.ForeignKey(Course, blank=True, null=True) 
+    major = models.ManyToManyField(Course, blank=True, null=True) 
     website = models.URLField(verify_exists=False, blank = True, null=True)
     image = models.ImageField(upload_to=get_image_filename, blank=True, null=True)
 

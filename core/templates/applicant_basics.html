@@ -1,4 +1,6 @@
+{% if applicant.image %}
 <img class="thumbnail" src="{{MEDIA_URL}}/{{applicant.image}}">
+{% endif %}
 <h2>{{applicant.first_name}} {{applicant.last_name}}</h2>
 <p>{{applicant.email}} - {{applicant.graduation_year}}{% if applicant.major %} - {{applicant.major}}{% endif %}</p>
 {% ifequal results "true" %}

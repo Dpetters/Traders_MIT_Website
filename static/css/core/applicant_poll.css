@@ -1,0 +1,18 @@
+#applicant_poll_form input[type=text], #applicant_poll_form select{
+    width:600px;
+}
+
+.applicants{
+   list-style:none;
+}
+
+.applicant {
+    min-height:200px;
+    padding-bottom:25px;
+}
+
+.applicant img{
+    max-width:150px;
+    float:left;
+    margin-right:10px;
+}

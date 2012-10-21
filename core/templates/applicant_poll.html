@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Applicant Poll | 
+{% endblock %}
+
+{% block meta %}
+    {% load compress %}
+
+    {% compress css %}
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/core/applicant_poll.css">
+    {% endcompress %}
+
+{% endblock %}
+
+{% block page_header %}
+    <h2>Applicant Poll</h2>
+{% endblock %}
+
+{% block content %}
+    {% if completed %}
+        <ul class="applicants">
+        {% for applicant in applicants %}
+           <li class="applicant">
+               {% include "applicant_basics.html" with results="true" %}
+           </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        {% if done %}
+            <p>{{execMembersLeft}}</p>
+        {% else %}
+        <form id="applicant_poll_form" method="POST" action="">
+           {% csrf_token %} 
+           {{management_form}}
+           <ul class="applicants">
+            {% for form, match in formset %}
+                <li class="applicant">
+                    {% with applicant=match %}
+                        {% include "applicant_basics.html" %}
+                    {% endwith %}
+                    <table>
+                        {{form}}
+                    </table>
+                </li>
+            {% endfor %}
+            </ul>
+            <input type="submit" value="Submit" />
+        </form>
+        {% endif %}
+    {% endif %}
+{% endblock %}

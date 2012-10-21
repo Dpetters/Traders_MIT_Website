@@ -40,6 +40,7 @@ class BoardMember(models.Model):
     
     class Meta:
         ordering = ['user__first_name']
+
         
 class ExecMember(BoardMember):
     graduation_year = models.ForeignKey(GraduationYear, null=True)
@@ -53,3 +54,36 @@ class ExecMember(BoardMember):
     left = models.DateTimeField(blank=True, null=True)
     
     objects = BoardMemberManager()
+
+class ApplicantPoll(models.Model):
+    date = models.DateField(auto_now_add=True)
+    
+    active = models.BooleanField(default=True) 
+    
+    completed_by = models.ManyToManyField(ExecMember)
+ 
+    def __unicode__(self):
+        return self.date.strftime("%Y %B")
+
+
+class Applicant(models.Model):
+    applicantPoll = models.ForeignKey(ApplicantPoll)
+
+    
+
+    first_name = models.CharField('First Name', max_length=30)
+    last_name = models.CharField('Last Name', max_length=30)
+    email = models.EmailField('E-mail Address')   
+    graduation_year = models.ForeignKey(GraduationYear, null=True)
+    major = models.ForeignKey(Course, blank=True, null=True) 
+    website = models.URLField(verify_exists=False, blank = True, null=True)
+    image = models.ImageField(upload_to=get_image_filename, blank=True, null=True)
+
+    positives = models.TextField(null=True)
+    negatives = models.TextField(null=True)
+   
+    score = models.IntegerField(default=0)
+   
+
+    def __unicode__(self):
+        return "%s %s" % (self.first_name, self.last_name)

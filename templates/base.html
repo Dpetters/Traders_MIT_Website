@@ -71,6 +71,9 @@
                             <li><a href="/photos/">Photos</a></li>
                             <li><a href="/contact/">Contact Us</a></li>
                             <li><a class="disabled" rel="tooltip" title="Coming Soon!" href="/blog/">Blog</a></li>
+                            {% if user.is_authenticated %}
+                            <li><a href="/applicant-poll/">Applicant Poll</a></li>
+                            {% endif %}
                         </ul>
                     </div>
                 </div>

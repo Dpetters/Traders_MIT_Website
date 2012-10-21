@@ -1,0 +1,8 @@
+<img class="thumbnail" src="{{MEDIA_URL}}/{{applicant.image}}">
+<h2>{{applicant.first_name}} {{applicant.last_name}}</h2>
+<p>{{applicant.email}} - {{applicant.graduation_year}}{% if applicant.major %} - {{applicant.major}}{% endif %}</p>
+{% ifequal results "true" %}
+<p><b>Score:</b> {{applicant.score }}</p>
+<p><b>Positives:</b> {{applicant.positives}}</p>
+<p><b>Negatives:</b> {{applicant.negatives}}</p>
+{% endifequal %} 

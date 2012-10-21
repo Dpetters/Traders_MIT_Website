@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Applicant Poll | 
+{% endblock %}
+
+{% block meta %}
+    {% load compress %}
+
+    {% compress css %}
+        <!--<link rel="stylesheet" href="{{ STATIC_URL }}css/core/applicant_poll.css">-->
+    {% endcompress %}
+
+{% endblock %}
+
+{% block page_header %}
+    <h2>Applicant Poll</h2>
+{% endblock %}
+
+{% block content %}
+    <form method="POST" action="">
+        <table> 
+            {{ formset }}
+        </table>
+    </form>
+{% endblock %}

@@ -2,6 +2,12 @@
     width:600px;
 }
 
+#applicant_poll_form input[type=submit]{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
 .applicants{
    list-style:none;
 }

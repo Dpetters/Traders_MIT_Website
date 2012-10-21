@@ -35,16 +35,13 @@ def applicant_poll(request, extra_context=None):
 
     done = False
     currentExecMember = ExecMember.objects.get(user=request.user)
-    print currentExecMember
-    print applicantPoll.completed_by.all()
-    print currentExecMember in applicantPoll.completed_by.all()
     if currentExecMember in applicantPoll.completed_by.all():
         done = True
     context["done"] = done
    
     execMembersLeft = []
     completed = True
-    for execMember in ExecMember.objects.filter(left__isnull=False):
+    for execMember in ExecMember.objects.filter(left__isnull=True):
         if not execMember in applicantPoll.completed_by.all():
             completed = False
             execMembersLeft.append(execMember.user.username)

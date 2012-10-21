@@ -91,5 +91,5 @@ def applicant_poll(request, extra_context=None):
         context['management_form'] = formset.management_form
         context['formset'] = zip(formset.forms, applicants)
     else:
-        context['applicants'] = applicants 
+        context['applicants'] = applicants.order_by("-score") 
     return context

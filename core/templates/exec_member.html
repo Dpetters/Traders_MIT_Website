@@ -6,7 +6,7 @@
 
 <p class="year_major">
     <b>{% if exec_member.co_president %}Co-President{% else %}Exec Member{% endif %}</b>
-    - Class of {{exec_member.graduation_year}} - {{exec_member.major}}
+    - Class of {{exec_member.graduation_year}} - {% for major in exec_member.major.all %}{{major}}{% if not forloop.last %} - {% endif %}{% endfor %}
 </p>
 
 {% if exec_member.website %}

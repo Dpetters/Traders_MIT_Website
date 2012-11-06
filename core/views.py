@@ -12,7 +12,7 @@ from event.models import Event
 @render_to("about.html")
 def about(request, extra_context=None):
     context = {}
-    context['current_exec_members'] = ExecMember.objects.filter(left__isnull=True).order_by("-co_president", "boardmember_ptr__user__first_name")
+    context['current_exec_members'] = ExecMember.objects.filter(left__isnull=True).order_by("-co_president", "joined")
     context['past_exec_members'] = ExecMember.objects.filter(left__isnull=False).order_by("left")
     return context
 

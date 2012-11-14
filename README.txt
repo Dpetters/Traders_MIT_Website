@@ -2,6 +2,8 @@ Version 0.1.1
 
 Traders@MIT Website
 
+Before working on the site, add yourself to the traders-webdev@mit.edu email list.
+
 INSTALLATION
 
 IMPORTANT: If you are setting this up on windows, read the "WINDOWS INSTALLATION PREP" section below first!

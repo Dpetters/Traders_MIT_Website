@@ -54,3 +54,18 @@ a.disabled:hover{
 #page{
     padding:0px 10px;
 }
+
+#footer{
+    border-top:1px solid #EEE;
+    padding-top:5px;
+    text-align:right;
+}
+
+#footer p, #footer a{
+    color:#888;
+    font-size:12px;
+}
+
+#footer a{
+    text-decoration:underline;
+}

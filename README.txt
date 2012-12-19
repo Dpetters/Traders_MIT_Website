@@ -12,17 +12,11 @@ INSTALLATION
 5. Make sure the TRADERS virtualenv is activated and run "pip install –r requirements.txt" from the project root.
 6. Create a copy of settings_local_template.py in the project root and name it settings_local.py
 7. Open settings_local.py and replace """NAME, EMAIL""" with your name and email in ADMINS. Make sure to put each in quotations since they're strings.
-8. Run “python manage.py syncdb --migrate” to set up the database.
+8. Run “python manage.py syncdb --migrate --noinput” to set up the database.
 9. Run “fab load_data” to load production data locally.
-10. Run "python manage.py localserver" to run the dev server.
+10. Run "python manage.py runserver" to run the dev server.
 11. Go to localhost:8000. You’re all set!
-
 
 DATAFLOW
 
 In order to have your local version of the site look exactly like the one that's live, I added scripts to the fabfile to allow you to commit all site data/media on production (using "fab commit_data") or load all the site data/media locally (using "fab load_data"). If you add new models to the site whose data you want committed, add them to DATA_MODELS in the fabfile.py.
-
-REFERENCES
-
-fabfile - http://docs.fabfile.org/en/1.5/
-virtualenv - http://pypi.python.org/pypi/virtualenv

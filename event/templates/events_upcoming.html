@@ -21,5 +21,8 @@ Upcoming Events |
     {% for event in upcoming_events %}
     	{% include "event.html" %}
         <br>
-    {% endfor %}
+      {% empty %}
+      We have no upcoming event at the moment. Check back soon!
+      {% endfor %}
+      <a style="margin-bottom:10px;" class="right_side_container" href="{% url events_past %}">View Past Events &raquo;</a>
 {% endblock %}

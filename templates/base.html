@@ -84,7 +84,7 @@
                    {% endblock %}
                </div>
                <div id="content">
-                    {{flatpage.content}}
+                    {{flatpage.content|safe}}
                     {% block content %}
                     {% endblock %}
                 </div>

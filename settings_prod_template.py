@@ -14,7 +14,7 @@ ADMIN_MEDIA_PREFIX = '/__scripts/django/media/'
 DATABASES = {
 	'default':{
 		'ENGINE':'django.db.backends.mysql',
-		'NAME':'traders_main',
+		'NAME':'traders+main',
 		'USER':"traders",
 		'PASSWORD':"pov68dey",
 		'HOST':"sql.mit.edu",

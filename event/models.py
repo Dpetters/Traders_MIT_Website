@@ -7,11 +7,11 @@ from core import mixins as core_mixins
 
 class Event(core_mixins.DateCreatedTracking):
     name = models.CharField(max_length=85)
+    start_datetime = models.DateTimeField(blank=True, null=True)
     end_datetime = models.DateTimeField(null=True, blank=True)
     
     attending_employers = models.TextField(null=True, blank=True)
 
-    start_datetime = models.DateTimeField(blank=True, null=True)
     location = models.CharField(max_length=200, blank=True, null=True)
     description = models.TextField()
 
